@@ -6,3 +6,14 @@ beurten: 1ste beurt: boten plaatsen, controle plaatsen van boten
         x-ste beurt: schieten, resultaat, veld oproepen
 
 lijst geraakte boten, visualisatie, spelregels opvragen
+
+
+Moeilijkheidsgraad:µ
+- makkelijk: altijd random
+- moeilijk: bij een geraakte boot rond dat vak gaan zoeken
+
+intro: 
+- welkom scherm (ZEESLAG) + uitleg zeeslag
+
+grid maken:
+

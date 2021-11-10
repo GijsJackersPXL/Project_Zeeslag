@@ -1,3 +1,0 @@
-//Gijs Jackers
-//Martijn Guilliams
-
