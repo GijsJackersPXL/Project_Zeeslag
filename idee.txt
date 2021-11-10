@@ -1,0 +1,8 @@
+Boten, speelveld, beurten, speltype(classic/russisch), Tegen PC/Speler spelen
+
+Boten: geraakt, plaatsen, zinken, grootte(type)
+
+beurten: 1ste beurt: boten plaatsen, controle plaatsen van boten
+        x-ste beurt: schieten, resultaat, veld oproepen
+
+lijst geraakte boten, visualisatie, spelregels opvragen
