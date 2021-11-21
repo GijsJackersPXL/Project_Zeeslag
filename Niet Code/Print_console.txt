@@ -11,8 +11,10 @@ printf(" | |  |________|  | || | |_________|  | || | |_________|  | || |  |_____
 printf(" | |              | || |              | || |              | || |              | || |              | || |              | || |              | |   \n");
 printf(" | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |   \n");
 printf("  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'    \n");
+        Doel is dat beide spelers zo door gericht te raden proberen als eerste de volledige locaties van alle schepen van de tegenstander te raden en zo
+        de vloot van de tegenstande "tot zinken" te brengen. Wanneer alle coördinaten van een schip zijn geraakt, is het schip gezonken.
 
-
+ 
 Grid:
 
   A B C D E F G H I J

@@ -16,7 +16,7 @@ int main( int argumentCount, char * argumentVector[] )
     cout << "You: ";
     string naamSpeler1;
     getline(cin, naamSpeler1);
-    cout << " Hey, " << naamSpeler1 << "! Wil je zeeslag starten?\n";
+    cout << "Hey, " << naamSpeler1 << "! Wil je zeeslag starten?\n";
 
     //cerr << "Wilt u zeeslag starten?" << endl;
     if( getchar() != 'y' )
