@@ -10,3 +10,5 @@ class boten
         //boten()
 	
 };
+
+#endif  BOTEN_H

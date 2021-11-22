@@ -7,11 +7,12 @@
 
 class speler
 {
-	public:
-        speler( unsigned char instance = 0 ): instance(instance){}
-        unsigned char getInstance( void ) const	{return instance;}
+        public: 
+                speler( unsigned char instance = 0 ): instance(instance){}
+                unsigned char getInstance( void ) const	{return instance;}
+
 	protected:
-        const unsigned char instance;
+                const unsigned char instance;
 };
 
-#endif  SPELER_H
+#endif // SPELER_H

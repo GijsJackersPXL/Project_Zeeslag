@@ -5,6 +5,8 @@
 #include <iostream>
 #include <string.h>
 
+#include "spel.h"
+
 using namespace std;
 
 int main( int argumentCount, char * argumentVector[] )
@@ -25,4 +27,12 @@ int main( int argumentCount, char * argumentVector[] )
         return( 0 );
     }
     cout << "Einde programma" << endl;
+
+    //spel * newSpel = new spel();
+    //newSpel.intro();
+
+    spel Spel1;
+    //Spel1.intro();
+    return Spel1.intro();
+    
 }

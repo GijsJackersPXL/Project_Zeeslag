@@ -2,18 +2,13 @@
 #define SPEL_H
 
 #include <stdlib.h>
-//#include <time.h>
 #include <iostream>
-//#include <vector>
-#include "speler.h"
-//#include "game.h"
-
-
-
+//#include "speler.h"
 
 class spel
 {
-    
+    public: 
+        void intro();
 };
 
-#endif  SPEL_H
+#endif // SPEL_H

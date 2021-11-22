@@ -11,3 +11,5 @@ class speelveld
         //speelveld()
 	
 };
+
+#endif  SPEELVELD_H
