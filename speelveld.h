@@ -7,6 +7,8 @@
 
 class speelveld
 {
+        private int veld[10][10] = {0};
+        
 	public:
         //speelveld()
 	

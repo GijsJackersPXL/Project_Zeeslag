@@ -6,8 +6,9 @@
 
 class boten
 {
-	public:
-        //boten()
+	public enum boten {
+                vliegdekschip, slagschip, Torpedobootjager, Patrouilleschip;
+        }
 	
 };
 

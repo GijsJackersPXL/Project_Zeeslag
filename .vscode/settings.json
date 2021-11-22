@@ -1,8 +1,11 @@
 {
     "cSpell.words": [
+        "ABCDEFGHIJ",
         "Guilliams"
     ],
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xstring": "cpp",
+        "xlocale": "cpp"
     }
 }
