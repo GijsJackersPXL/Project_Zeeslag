@@ -28,11 +28,7 @@ int main( int argumentCount, char * argumentVector[] )
     }
     cout << "Einde programma" << endl;
 
-    //spel * newSpel = new spel();
-    //newSpel.intro();
-
     spel Spel1;
-    //Spel1.intro();
-    return Spel1.intro();
+    Spel1.intro(); //geeft fout
     
 }
