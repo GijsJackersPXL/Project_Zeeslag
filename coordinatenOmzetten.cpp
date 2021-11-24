@@ -34,20 +34,34 @@ int main( int argumentCount, char * argumentVector[] )
 
     bool geraakt = false;
 
+    string coordinaat = "B2";
+    char ch0 = coordinaat[0];
+    char ch1 = coordinaat[1];
+    cout << "ch0: " << ch0 << "\n";
+    cout << "ch1: " << ch1 << "\n";
+    
+    int coordinaat0 = 64 - int(ch0);
+    int coordinaat1 = int(ch1);
+    cout << "coordinaat0: " << coordinaat0 << "\n";
+    cout << "coordinaat1: " << coordinaat1 << "\n";
+
+    cout << coordinaat0 << "\n";
+    cout << coordinaat1 << "\n";
+
     //Grid printen
     cout <<"  A B C D E F G H I J \n";
     for (int i = 0; i <= 9; i++) // van 0-9
     {
         cout << i << " ";
-        for (int i = 0; i <= 9; i++) // van A-J
+        for (int j = 0; j <= 9; j++) // van A-J
         {
-            if (geraakt != true)
+            if (i == coordinaat0 && j == coordinaat1)
             {
-                cout << "." << " ";
+                cout << "X" << " ";
             }
             else
             {
-                cout << "X" << " ";
+                cout << "." << " ";
             }
         }
         cout << "\n";
