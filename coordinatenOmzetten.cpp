@@ -10,7 +10,7 @@ using namespace std;
 
 int main( int argumentCount, char * argumentVector[] )
 {
-   /* cout << "Geef een coordinaat op " << endl;
+    cout << "Geef een coordinaat op " << endl;
     cout << "Kies een coordinaat(A-J)(0-9): ";
     string coordinaat;
     getline(cin, coordinaat);
@@ -28,20 +28,20 @@ int main( int argumentCount, char * argumentVector[] )
          getline(cin, coordinaat);
          ch = coordinaat[0];
          cout << int(toupper(ch)) << "\n";
-    }*/
+    }
 
     cout << "Je coordinaat is goedgekeurd" << endl;
 
     bool geraakt = false;
 
-    string coordinaat = "B2";
+    //string coordinaat = "D5";
     char ch0 = coordinaat[0];
     char ch1 = coordinaat[1];
     cout << "ch0: " << ch0 << "\n";
     cout << "ch1: " << ch1 << "\n";
     
-    int coordinaat0 = 64 - int(ch0);
-    int coordinaat1 = int(ch1);
+    int coordinaat0 = int(ch0) - 65;
+    int coordinaat1 = int(ch1) - 48;
     cout << "coordinaat0: " << coordinaat0 << "\n";
     cout << "coordinaat1: " << coordinaat1 << "\n";
 
@@ -55,7 +55,7 @@ int main( int argumentCount, char * argumentVector[] )
         cout << i << " ";
         for (int j = 0; j <= 9; j++) // van A-J
         {
-            if (i == coordinaat0 && j == coordinaat1)
+            if (j == coordinaat0 && i == coordinaat1)
             {
                 cout << "X" << " ";
             }
