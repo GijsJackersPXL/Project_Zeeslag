@@ -1,5 +1,4 @@
-//A0 omzetten naar (0,0) 
-//D5 omzetten naar (5,4)
+//Coordinaat opvragen en weergeven op grid
 
 #include <stdio.h>
 #include <iostream>
