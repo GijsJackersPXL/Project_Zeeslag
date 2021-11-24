@@ -21,32 +21,18 @@ int main( int argumentCount, char * argumentVector[] )
 
     while (coordinaat.length() != 2 || isalpha(coordinaat[0]) != 1 || isdigit(coordinaat[1]) != 1 || (64 < int(ch) && int(ch) < 75) != 1 )  //A = 65 // J=74 //ABCDEFGHIJ
     {
-         cout << "Foute coordinaat\n";
-        
-        
-         cout << "Kies een coordinaat(A-J)(0-9): ";
-         getline(cin, coordinaat);
-         ch = coordinaat[0];
-         cout << int(toupper(ch)) << "\n";
+        cout << "Foute coordinaat\n";
+        cout << "Kies een coordinaat(A-J)(0-9): ";
+        getline(cin, coordinaat);
+        ch = coordinaat[0];
     }
-
     cout << "Je coordinaat is goedgekeurd" << endl;
 
-    bool geraakt = false;
-
-    //string coordinaat = "D5";
+    //coordinaat omzetten zodat deze geprint kan worden;
     char ch0 = coordinaat[0];
     char ch1 = coordinaat[1];
-    cout << "ch0: " << ch0 << "\n";
-    cout << "ch1: " << ch1 << "\n";
-    
     int coordinaat0 = int(ch0) - 65;
     int coordinaat1 = int(ch1) - 48;
-    cout << "coordinaat0: " << coordinaat0 << "\n";
-    cout << "coordinaat1: " << coordinaat1 << "\n";
-
-    cout << coordinaat0 << "\n";
-    cout << coordinaat1 << "\n";
 
     //Grid printen
     cout <<"  A B C D E F G H I J \n";
