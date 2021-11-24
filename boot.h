@@ -1,21 +1,22 @@
-#ifndef BOTEN_H
-#define BOTEN_H
+#ifndef BOOT_H
+#define BOOT_H
 
 #include <string>
 #include "speelveld.h"
 
-class boten
+class boot
 {
         virtual int breedte() = 0;
 
-        /*
-	public enum boten {
-                vliegdekschip, slagschip, Torpedobootjager, Patrouilleschip;
-        }
-	*/
+        //x
+        //y
+        //breedte => hit
+        //polymorfisme
+        
+
 };
 
-#endif // BOTEN_H
+#endif // BOOT_H
 
 /*
 
@@ -41,4 +42,11 @@ int main(void)
     return 0;
 }
 
+*/
+
+/*
+public enum boten 
+{
+        vliegdekschip, slagschip, Torpedobootjager, Patrouilleschip;
+}
 */

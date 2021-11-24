@@ -1,3 +1,2 @@
-- Hoe werken met QT creater  
 - undefined reference to `spel::intro()'  ((main))
 - abstracte classes => virtual
