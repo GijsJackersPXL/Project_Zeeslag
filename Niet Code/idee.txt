@@ -1,9 +1,12 @@
 Boten, speelveld, beurten, speltype(classic/russisch), Tegen PC/Speler spelen
 
+
 Boten: geraakt, plaatsen, zinken, grootte(type)
+
 
 beurten: 1ste beurt: boten plaatsen, controle plaatsen van boten
         x-ste beurt: schieten, resultaat, veld oproepen
+
 
 lijst geraakte boten, visualisatie, spelregels opvragen
 
@@ -12,8 +15,15 @@ Moeilijkheidsgraad:µ
 - makkelijk: altijd random
 - moeilijk: bij een geraakte boot rond dat vak gaan zoeken
 
-intro: 
-- welkom scherm (ZEESLAG) + uitleg zeeslag
 
-grid maken:
+intro: 
+- welkom scherm (ZEESLAG) + uitleg zeeslag 
+
+
+grid maken
+
+
+functie "Hit" maken:
+- coördinaten naartoe sturen en die geeft terug of de bood geraakt is of niet
+- hoort bij classes boot
 
