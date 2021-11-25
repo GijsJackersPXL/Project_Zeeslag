@@ -5,7 +5,7 @@
 #include <iostream>
 //#include "speler.h"
 
-class spel
+class Spel
 {
     public: 
         void intro();

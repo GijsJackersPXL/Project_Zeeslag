@@ -1,6 +1,8 @@
 //Gijs Jackers
 //Martijn Guilliams
 
+//g++ zeeslag.cpp spel.cpp 
+
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
@@ -28,7 +30,9 @@ int main( int argumentCount, char * argumentVector[] )
     }
     cout << "Einde programma" << endl;
 
-    spel Spel1;
-    Spel1.intro(); //geeft fout
+    Spel Spel1;
+    Spel1.intro(); 
+
+    return (0);
     
 }
