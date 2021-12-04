@@ -30,11 +30,12 @@ void Spel::intro()
     cout << "Dadelijk als je het spel gaat starten gaat er  \n";
 
     //...
-
-
-
-
     //printf(" \n");
 }
 
-
+void Spel::outro()
+{
+    cout << "De winnaar is \n"; // naam erin zetten
+    cout << "U heeft zo vaak geschoten: \n"; // aantal schoten
+    cout << "Aantal hits en misses: \n"; 
+}
