@@ -9,6 +9,7 @@ class Spel
 {
     public: 
         void intro();
+        void outro();
 };
 
 #endif // SPEL_H
