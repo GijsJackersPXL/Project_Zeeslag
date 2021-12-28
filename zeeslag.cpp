@@ -19,7 +19,8 @@ using namespace std;
 
 int main( int argumentCount, char * argumentVector[] )
 {
-    /*//-----VRAGEN VAN NAMEN----//
+    /*
+    //-----VRAGEN VAN NAMEN----//
     printf("\n\n----VRAGEN VAN NAMEN---- \n\n");
 
     cout << "De naam van speler1: " << endl;
@@ -40,24 +41,24 @@ int main( int argumentCount, char * argumentVector[] )
     Spel Spel1;
     Spel1.intro(); 
 
-    
-
     Patrouilleschip Patrouille;
     Patrouille.setX(1);
     Patrouille.setY(2);
     cout << "\n\n\n Boot breedte: " << Patrouille.getBreedte() << endl;
+    cout << "\n Boot coordinaat x: " << Patrouille.getX() << endl;
+    cout << "\n Boot coordinaat y: " << Patrouille.getY() << endl;
     
     Duikboot Duikboot1;
-    cout << "\n\n\n Boot breedte: " << Duikboot1.getBreedte() << endl;
+    cout << "\n Boot breedte: " << Duikboot1.getBreedte() << endl;
 
     Torpedobootjager Torpedobootjager1;
-    cout << "\n\n\n Boot breedte: " << Torpedobootjager1.getBreedte() << endl;
+    cout << "\n Boot breedte: " << Torpedobootjager1.getBreedte() << endl;
 
     Slagschip Slagschip1;
-    cout << "\n\n\n Boot breedte: " << Slagschip1.getBreedte() << endl;
+    cout << "\n Boot breedte: " << Slagschip1.getBreedte() << endl;
 
     Vliegdekschip Vliegdekschip1;
-    cout << "\n\n\n Boot breedte: " << Vliegdekschip1.getBreedte() << endl;
+    cout << "\n Boot breedte: " << Vliegdekschip1.getBreedte() << endl;
 
 
 

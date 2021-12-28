@@ -11,18 +11,15 @@ class Boot
 {
     protected:
         int breedte;
-        int x;
-        int y;
         int coordinaat_x;
         int coordinaat_y;
 
     public:
-    
         virtual int getBreedte() = 0;
-
         void setX(int x);
         void setY(int y);
-        
+        int getX();
+        int getY();
 };
 
 #endif // BOOT_H

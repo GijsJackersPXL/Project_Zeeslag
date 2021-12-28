@@ -15,6 +15,7 @@ class Patrouilleschip : public Boot
         {
             return (breedte);
         }
+        
 };
 
 #endif
