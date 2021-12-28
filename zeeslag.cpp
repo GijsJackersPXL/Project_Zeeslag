@@ -8,12 +8,18 @@
 #include <string.h>
 
 #include "spel.h"
+#include "boot.h"
+#include "patrouilleschip.h"
+#include "duikboot.h"
+#include "torpedobootjager.h"
+#include "slagschip.h"
+#include "vliegdekschip.h"
 
 using namespace std;
 
 int main( int argumentCount, char * argumentVector[] )
 {
-    //-----VRAGEN VAN NAMEN----//
+    /*//-----VRAGEN VAN NAMEN----//
     printf("\n\n----VRAGEN VAN NAMEN---- \n\n");
 
     cout << "De naam van speler1: " << endl;
@@ -29,10 +35,33 @@ int main( int argumentCount, char * argumentVector[] )
         return( 0 );
     }
     cout << "Einde programma" << endl;
-
+    */
+    
     Spel Spel1;
     Spel1.intro(); 
 
-    return (0);
     
+
+    Patrouilleschip Patrouille;
+    Patrouille.setX(1);
+    Patrouille.setY(2);
+    cout << "\n\n\n Boot breedte: " << Patrouille.getBreedte() << endl;
+    
+    Duikboot Duikboot1;
+    cout << "\n\n\n Boot breedte: " << Duikboot1.getBreedte() << endl;
+
+    Torpedobootjager Torpedobootjager1;
+    cout << "\n\n\n Boot breedte: " << Torpedobootjager1.getBreedte() << endl;
+
+    Slagschip Slagschip1;
+    cout << "\n\n\n Boot breedte: " << Slagschip1.getBreedte() << endl;
+
+    Vliegdekschip Vliegdekschip1;
+    cout << "\n\n\n Boot breedte: " << Vliegdekschip1.getBreedte() << endl;
+
+
+
+    
+    
+    return (0);
 }

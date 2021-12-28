@@ -2,10 +2,12 @@
 #define BOOT_H
 
 #include <string>
-#include "speelveld.h"
+#include <stdlib.h>
+#include <iostream>
+//#include "speelveld.h"
 
 //parent & abstract class
-class boot
+class Boot
 {
     protected:
         int breedte;
@@ -18,16 +20,9 @@ class boot
     
         virtual int getBreedte() = 0;
 
-        int setX(int x){
-            coordinaat_x = x;
-        }
-
-        int setY(int y){
-            coordinaat_y = y;
-        }
-    
+        void setX(int x);
+        void setY(int y);
         
-
 };
 
 #endif // BOOT_H

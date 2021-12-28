@@ -2,16 +2,18 @@
 #define SLAGSCHIP_H
 
 #include <string>
-
+#include "boot.h"
 
 //child class (slagschip) inhereting from base class (boot)
-class slagschip : public boot
+class Slagschip : public Boot
 {
-   protected:
+    protected:
         int breedte = 4;
     public:
         int getBreedte(){
-            retrun (breedte);
+            return (breedte);
         }
 
 };
+
+#endif

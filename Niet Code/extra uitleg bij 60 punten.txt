@@ -8,6 +8,7 @@ useful and correct inheritance (explain why)
 - een basis class en een afgeleide class
 - https://www.geeksforgeeks.org/inheritance-in-c/
 UITLEG: waar? en waarom?
+- dit wordt gebruikt bij de functie boot.h
 
 useful and correct object composition (explain why)
 - https://www.geeksforgeeks.org/introduction-to-complex-objects-and-composition/

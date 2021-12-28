@@ -1,16 +1,19 @@
 #ifndef DUIKBOOT_H
 #define DUIKBOOT_H
 
+#include <iostream>
 #include <string>
-
+#include "boot.h"
 
 //child class (duikboot) inhereting from base class (boot)
-class duikboot : public boot
+class Duikboot : public Boot
 {
     protected:
         int breedte = 3;
     public:
         int getBreedte(){
-            retrun (breedte);
+            return (breedte);
         }
 };
+
+#endif
