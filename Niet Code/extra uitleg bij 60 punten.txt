@@ -1,4 +1,4 @@
-clean main (i.e. nothing in the main that shoud be in a class)
+clean main (i.e. nothing in the main that should be in a class)
 
 useful class (explain why)
 
@@ -6,10 +6,13 @@ useful and correct encapsulation (explain why)
 
 useful and correct inheritance (explain why)
 -een basis class en een afgeleide class
+UITLEG: waar? en waarom?
 
 useful and correct object composition (explain why)
 
 useful and correct multiple inheritance (explain why)
+- https://www.geeksforgeeks.org/inheritance-in-c/
+
 
 correct base class
 
@@ -19,6 +22,9 @@ useful virtual function
 - gebruik de functie ook, niet alleen maken...
 
 useful proven (dynamic) polymorphism
+- https://www.geeksforgeeks.org/polymorphism-in-c/
+
+
 
 at least 2 default constructors
 - () is default, staat niet useful dus maak gewoon aan!!!

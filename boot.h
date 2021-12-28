@@ -6,14 +6,14 @@
 
 class boot
 {
-        virtual int breedte() = 0;
+    virtual int breedte() = 0;
 
-        // x
-        // y
-        // breedte => hit
-        // polymorfisme
-        // elke boot in aparte .h
-        // https://en.cppreference.com/w/cpp/language/bit_field
+    // x
+    // y
+    // breedte => hit
+    // polymorfisme
+    // elke boot in aparte .h
+    // https://en.cppreference.com/w/cpp/language/bit_field
 
 };
 
