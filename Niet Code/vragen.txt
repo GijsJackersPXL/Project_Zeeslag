@@ -1,2 +1,0 @@
-- undefined reference to `spel::intro()'  ((main))
-- abstracte classes => virtual

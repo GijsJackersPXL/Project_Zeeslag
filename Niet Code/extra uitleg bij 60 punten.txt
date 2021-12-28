@@ -20,7 +20,9 @@ useful and correct multiple inheritance (explain why)
 correct base class (van inheritance)
 
 correct abstract base class
-- https://en.cppreference.com/w/cpp/language/abstract_class
+- https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/
+GEBRUIK: 
+- dit wordt gebruikt bij de functie boot.h
 
 useful virtual function
 - gebruik de functie ook, niet alleen maken...

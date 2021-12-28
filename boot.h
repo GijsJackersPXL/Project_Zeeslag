@@ -4,50 +4,34 @@
 #include <string>
 #include "speelveld.h"
 
+//parent & abstract class
 class boot
 {
-    virtual int breedte() = 0;
+    protected:
+        int breedte;
+        int x;
+        int y;
+        int coordinaat_x;
+        int coordinaat_y;
 
-    // x
-    // y
-    // breedte => hit
-    // polymorfisme
-    // elke boot in aparte .h
-    // https://en.cppreference.com/w/cpp/language/bit_field
+    public:
+    
+        virtual int getBreedte() = 0;
+
+        int setX(int x){
+            coordinaat_x = x;
+        }
+
+        int setY(int y){
+            coordinaat_y = y;
+        }
+    
+        
 
 };
 
 #endif // BOOT_H
 
-/*
 
-#include<iostream>
-using namespace std;
-  
-class Base
-{
-public:
-    virtual void show() = 0;
-};
-  
-class Derived: public Base
-{
-public:
-    void show() { cout << "In Derived \n"; }
-};
-  
-int main(void)
-{
-    Base *bp = new Derived();
-    bp->show();
-    return 0;
-}
-
-*/
-
-/*
-public enum boten 
-{
-    vliegdekschip, slagschip, Torpedobootjager, patrouilleschip;
-}
-*/
+// https://en.cppreference.com/w/cpp/language/bit_field
+// https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/
