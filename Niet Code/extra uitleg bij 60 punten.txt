@@ -5,26 +5,29 @@ useful class (explain why)
 useful and correct encapsulation (explain why)
 
 useful and correct inheritance (explain why)
--een basis class en een afgeleide class
+- een basis class en een afgeleide class
+- https://www.geeksforgeeks.org/inheritance-in-c/
 UITLEG: waar? en waarom?
 
 useful and correct object composition (explain why)
+- https://www.geeksforgeeks.org/introduction-to-complex-objects-and-composition/
+GEBRUIK: 
+- dit wordt gebruikt bij de functie boot.h
 
 useful and correct multiple inheritance (explain why)
 - https://www.geeksforgeeks.org/inheritance-in-c/
 
-
-correct base class
+correct base class (van inheritance)
 
 correct abstract base class
+- https://en.cppreference.com/w/cpp/language/abstract_class
 
 useful virtual function
 - gebruik de functie ook, niet alleen maken...
+- https://www.geeksforgeeks.org/virtual-function-cpp/
 
 useful proven (dynamic) polymorphism
 - https://www.geeksforgeeks.org/polymorphism-in-c/
-
-
 
 at least 2 default constructors
 - () is default, staat niet useful dus maak gewoon aan!!!

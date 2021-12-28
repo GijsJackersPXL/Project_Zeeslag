@@ -48,6 +48,6 @@ int main(void)
 /*
 public enum boten 
 {
-        vliegdekschip, slagschip, Torpedobootjager, Patrouilleschip;
+    vliegdekschip, slagschip, Torpedobootjager, patrouilleschip;
 }
 */
