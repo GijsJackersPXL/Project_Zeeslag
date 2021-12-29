@@ -55,11 +55,15 @@ int main( int argumentCount, char * argumentVector[] )
     cout << "Patrouille2 coordinaat x: " << Patrouille2.getX() << endl;
     cout << "Patrouille2 coordinaat y: " << Patrouille2.getY() << endl;
 
+    Patrouille2.setPositie(4,5);
+    cout << "Patrouille2 coordinaat x: " << Patrouille2.getX() << endl;
+    cout << "Patrouille2 coordinaat y: " << Patrouille2.getY() << endl;
+
     
-    Duikboot Duikboot1;
+    Duikboot Duikboot1(1,2);
     cout << "Duikboot1 breedte: " << Duikboot1.getBreedte() << endl;
 
-    Torpedobootjager Torpedobootjager1;
+    Torpedobootjager Torpedobootjager1(1,2);
     cout << "Torpedobootjager1 breedte: " << Torpedobootjager1.getBreedte() << endl;
     
     

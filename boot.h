@@ -18,28 +18,16 @@ class Boot
         void setBreedte(int formaat);
 
     public:
-        Boot() //default constructor
-        {
-        }
-        Boot(int formaat)
-            : breedte { formaat }
-        {
-        }
-        Boot(int formaat, int x, int y)
-            : breedte { formaat }
-            , coordinaat_x { x }
-            , coordinaat_y { y }
-        {
-        }
-        ~Boot() {
-            cout<<"Inside Destructor\n";
-        }
+        Boot(int formaat) : breedte { formaat } {}
+        Boot(int formaat, int x, int y) : breedte { formaat } , coordinaat_x { x }, coordinaat_y { y }{}
+        ~Boot() {} //Destructor
         
         int getX();
         int getY();
         int getBreedte();
         void setX(int x);
         void setY(int y);
+        void setPositie(int x, int y);
 };
 
 #endif // BOOT_H

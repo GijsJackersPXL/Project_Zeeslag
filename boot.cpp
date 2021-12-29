@@ -16,6 +16,12 @@ void Boot::setY(int coordinaat_y)
     this->coordinaat_y = coordinaat_y;
 }
 
+void Boot::setPositie(int coordinaat_x, int coordinaat_y)
+{
+    this->coordinaat_x = coordinaat_x;
+    this->coordinaat_y = coordinaat_y;
+}
+
 int Boot:: getX()
 {
     return coordinaat_x;
