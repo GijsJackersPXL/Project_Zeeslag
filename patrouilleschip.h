@@ -8,14 +8,17 @@
 //child class (patrouilleschip) inhereting from base class (boot)
 class Patrouilleschip : public Boot
 {
-    protected:
-        int breedte = 2;
-    public:
-        int getBreedte()
+    public:    
+        Patrouilleschip() : Boot{ 2 } //default constructor
         {
-            return (breedte);
         }
-        
+        Patrouilleschip(int x, int y) //specific constructor
+            : Boot{ 2, x, y }
+        {
+        }
+        ~Patrouilleschip() {
+            cout<<"Inside Destructor patrouilleschip\n";
+        }
 };
 
 #endif

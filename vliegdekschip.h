@@ -7,13 +7,14 @@
 //child class (vliegdekschip) inhereting from base class (boot)
 class Vliegdekschip : public Boot
 {
-    protected:
-        int breedte = 5;
     public:
-        int getBreedte(){
-            return (breedte);
+        Vliegdekschip() : Boot{ 5 } //default constructor
+        {
         }
-
+        Vliegdekschip(int x, int y) //specific constructor
+            : Boot{ 5, x, y }
+        {
+        }
 };
 
 #endif

@@ -8,11 +8,13 @@
 //child class (duikboot) inhereting from base class (boot)
 class Duikboot : public Boot
 {
-    protected:
-        int breedte = 3;
-    public:
-        int getBreedte(){
-            return (breedte);
+    public: 
+        Duikboot() : Boot{ 3 } //default constructor
+        {
+        }
+        Duikboot(int x, int y) //specific constructor
+            : Boot{ 3, x, y }
+        {
         }
 };
 

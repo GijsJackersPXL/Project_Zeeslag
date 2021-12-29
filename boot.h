@@ -6,6 +6,8 @@
 #include <iostream>
 //#include "speelveld.h"
 
+using namespace std;
+
 //parent & abstract class
 class Boot
 {
@@ -13,13 +15,31 @@ class Boot
         int breedte;
         int coordinaat_x;
         int coordinaat_y;
+        void setBreedte(int formaat);
 
     public:
-        virtual int getBreedte() = 0;
-        void setX(int x);
-        void setY(int y);
+        Boot() //default constructor
+        {
+        }
+        Boot(int formaat)
+            : breedte { formaat }
+        {
+        }
+        Boot(int formaat, int x, int y)
+            : breedte { formaat }
+            , coordinaat_x { x }
+            , coordinaat_y { y }
+        {
+        }
+        ~Boot() {
+            cout<<"Inside Destructor\n";
+        }
+        
         int getX();
         int getY();
+        int getBreedte();
+        void setX(int x);
+        void setY(int y);
 };
 
 #endif // BOOT_H

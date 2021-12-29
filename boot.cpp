@@ -1,14 +1,19 @@
 #include "boot.h"
 using namespace std;
 
-void Boot::setX(int x)
+void Boot::setBreedte(int breedte)
 {
-    coordinaat_x = x;
+    this->breedte = breedte;
 }
 
-void Boot::setY(int y)
+void Boot::setX(int coordinaat_x)
 {
-    coordinaat_y = y;
+    this->coordinaat_x = coordinaat_x;
+}
+
+void Boot::setY(int coordinaat_y)
+{
+    this->coordinaat_y = coordinaat_y;
 }
 
 int Boot:: getX()
@@ -19,4 +24,9 @@ int Boot:: getX()
 int Boot:: getY()
 {
     return coordinaat_y;
+}
+
+int Boot:: getBreedte()
+{
+    return breedte;
 }

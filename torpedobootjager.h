@@ -7,13 +7,14 @@
 //child class (torpedobootjager) inhereting from base class (boot)
 class Torpedobootjager : public Boot
 {
-    protected:
-        int breedte = 3;
-    public:
-        int getBreedte(){
-            return (breedte);
+    public: 
+        Torpedobootjager() : Boot{ 3 } //default constructor
+        {
         }
-
+        Torpedobootjager(int x, int y) //specific constructor
+            : Boot{ 3, x, y }
+        {
+        }
 };
 
 #endif

@@ -1,48 +1,73 @@
-clean main (i.e. nothing in the main that should be in a class)
-
-useful class (explain why)
-
-useful and correct encapsulation (explain why)
+GEBRUIKT!!!
 
 useful and correct inheritance (explain why)
 - een basis class en een afgeleide class
 - https://www.geeksforgeeks.org/inheritance-in-c/
 UITLEG: waar? en waarom?
-- dit wordt gebruikt bij de functie boot.h
+- dit wordt gebruikt bij de klasse boot.h
 
 useful and correct object composition (explain why)
 - https://www.geeksforgeeks.org/introduction-to-complex-objects-and-composition/
 GEBRUIK: 
-- dit wordt gebruikt bij de functie boot.h
+- dit wordt gebruikt bij de klasse boot.h
+
+
 
 useful and correct multiple inheritance (explain why)
 - https://www.geeksforgeeks.org/inheritance-in-c/
+GEBRUIK: 
+- dit wordt gebruikt bij de klasse boot.h en bij onderliggende klassen
 
 correct base class (van inheritance)
+GEBRUIK:
+- dit wordt gebruikt bij de klasse boot.h
 
+member initialization in constructors (the stuff behind a colon)
+- wordt gebruikt in boot.h = constructor met ':'
+
+separate header files
+
+useful and correct encapsulation (explain why)
+GEBRUIK:
+- in boot.h, de variabellen staan in protected maar ze kunnen nog opgevraagd worden door de get...
+
+at least 2 default constructors
+- () is default, staat niet useful dus maak gewoon aan!!!
+- dit wordt gebruikt bij de klasse patrouilleschip.h en slagschip.h
+
+at least 2 specific constructors
+- moet iets tussen de () staan, staat niet useful dus maak gewoon aan!!!
+- dit wordt gebruikt bij de klasse patrouilleschip.h en slagschip.h
+
+at least 2 destructors
+- wordt gebruikt in boot.h
+
+useful usage of "this" (if the code does not work without it)
+- wordt gebruikt in boot.cpp
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 correct abstract base class
 - https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/
 GEBRUIK: 
-- dit wordt gebruikt bij de functie boot.h
+- dit wordt gebruikt bij de klasse boot.h
+// opnieuw bekijken!!!!
 
 useful virtual function
 - gebruik de functie ook, niet alleen maken...
 - https://www.geeksforgeeks.org/virtual-function-cpp/
+GEBRUIK:
+- wordt gebruikt in boot.h (virtual int getBreedte()) 
+// opnieuw bekijken!!!!
+
+clean main (i.e. nothing in the main that should be in a class)
+
+useful class (explain why)
 
 useful proven (dynamic) polymorphism
 - https://www.geeksforgeeks.org/polymorphism-in-c/
 
-at least 2 default constructors
-- () is default, staat niet useful dus maak gewoon aan!!!
 
-at least 2 specific constructors
-- moet iets tussen de () staan, staat niet useful dus maak gewoon aan!!!
-
-member initialization in constructors (the stuff behind a colon)
-
-at least 2 destructors
-
-useful useage of "this" (if the code does not work without it)
 
 useful member function
 
@@ -60,10 +85,10 @@ no globals, but statics if needed
 
 everything in one or more self-made namespace(s)
 
-maintanability by clean uniform code style and good function naming and/or comments everywhere
+maintainability by clean uniform code style and good function naming and/or comments everywhere
 - goede naamgeving is beter als commentaar
 
-seperate header files
+
 
 2 useful unsigned chars or other better usage of memory efficient type
 - een type card bestaat niet => unsigned char
@@ -106,7 +131,7 @@ useful non-type template arguments
 useful friend function or class
 - friend kunnen aan private delen van friend...
 
-correct useage of inline function
+correct usage of inline function
 
 useful recursive function
 

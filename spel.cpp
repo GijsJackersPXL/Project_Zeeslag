@@ -27,7 +27,7 @@ void Spel::intro()
     cout << "Je zal een goedkeuring krijgen als je boot gezet maar je kan ook een error krijgen als je boot verkeerd staat.\n\n";
     
     cout << "HOE SPEEL JE HET SPEL IN DE CONSOLE: \n";
-    cout << "Dadelijk als je het spel gaat starten gaat er  \n";
+    cout << "Dadelijk als je het spel gaat starten gaat er ...(uitleg nog afwerken) \n";
 
     //...
     //printf(" \n");
