@@ -1,70 +1,122 @@
 GEBRUIKT!!!
 
+1 
 useful and correct inheritance (explain why)
 - een basis class en een afgeleide class
 - https://www.geeksforgeeks.org/inheritance-in-c/
 UITLEG: waar? en waarom?
 - dit wordt gebruikt bij de klasse boot.h
 
+2 
 useful and correct object composition (explain why)
 - https://www.geeksforgeeks.org/introduction-to-complex-objects-and-composition/
 GEBRUIK: 
 - dit wordt gebruikt bij de klasse boot.h
 
+3 
 useful and correct multiple inheritance (explain why)
 - https://www.geeksforgeeks.org/inheritance-in-c/
 GEBRUIK: 
 - dit wordt gebruikt bij de klasse boot.h en bij onderliggende klassen
 
+4
 correct base class (van inheritance)
 GEBRUIK:
 - dit wordt gebruikt bij de klasse boot.h
 
+5
 member initialization in constructors (the stuff behind a colon)
+GEBRUIK:
 - wordt gebruikt in boot.h = constructor met ':'
 
+6
 separate header files
 
+7
 useful and correct encapsulation (explain why)
 GEBRUIK:
 - in boot.h, de variabellen staan in protected maar ze kunnen nog opgevraagd worden door de get...
 
+8
 at least 2 default constructors
 - () is default, staat niet useful dus maak gewoon aan!!!
+GEBRUIK:
 - dit wordt gebruikt bij de klasse patrouilleschip.h en slagschip.h
 
+9
 at least 2 specific constructors
 - moet iets tussen de () staan, staat niet useful dus maak gewoon aan!!!
+GEBRUIK:
 - dit wordt gebruikt bij de klasse patrouilleschip.h en slagschip.h
 
+10
 at least 2 destructors
+GEBRUIK:
 - wordt gebruikt in boot.h
 
+11
 useful usage of "this" (if the code does not work without it)
+GEBRUIK:
 - wordt gebruikt in boot.cpp
 
+12
 useful member variabel
 GEBRUIK:
 - boot.h
 
+13
 useful getters and setters for member variables
 GEBRUIK:
 - boot.cpp
 
+14
 useful string class usage
 - std string
+GEBRUIK:
 - dit wordt gebruikt voor naamspeler
 
-
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-OPNIEUW BEKIJKEN:
-
+15
 correct abstract base class
 - https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/
 GEBRUIK: 
-- dit wordt gebruikt bij de klasse boot.h
-// opnieuw bekijken!!!!
+- dit wordt gebruikt bij de klasse abstractBaseClass.h
+
+16
+default values in function definition
+- int sum(int x, int y, int z = 0, int w = 0)
+GEBRUIK: 
+- dit wordt gebruikt bij de klasse abstractBaseClass.cpp
+
+17
+useful member function
+GEBRUIK:
+- wordt gebruikt in boot.h en boot.cpp
+
+18
+
+
+19
+
+
+20
+
+
+21
+
+
+22
+
+
+23
+
+
+24
+
+
+25
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OPNIEUW BEKIJKEN:
 
 useful virtual function
 - gebruik de functie ook, niet alleen maken...
@@ -75,17 +127,13 @@ GEBRUIK:
 
 useful proven (dynamic) polymorphism
 - https://www.geeksforgeeks.org/polymorphism-in-c/
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 NOG DOEN
 
 clean main (i.e. nothing in the main that should be in a class)
 
 useful class (explain why)
-
-useful member function
-
-default values in function definition
-- int sum(int x, int y, int z = 0, int w = 0)
 
 correct protections
 
