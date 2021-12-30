@@ -1,7 +1,7 @@
 #ifndef SLAGSCHIP_H
 #define SLAGSCHIP_H
 
-#include <string>
+#include "includeHeaders.h"
 #include "boot.h"
 
 namespace ZEESLAG

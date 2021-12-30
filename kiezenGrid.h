@@ -1,8 +1,7 @@
 #ifndef KIEZENGRID_H
 #define KIEZENGRID_H
 
-#include <string>
-//#include "... .h"
+#include "includeHeaders.h"
 
 namespace ZEESLAG
 {

@@ -1,7 +1,7 @@
 #ifndef TORPEDOBOOTJAGER_H
 #define TORPEDOBOOTJAGER_H
 
-#include <string>
+#include "includeHeaders.h"
 #include "boot.h"
 
 namespace ZEESLAG

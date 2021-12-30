@@ -1,7 +1,7 @@
 #ifndef VLIEGDEKSCHIP_H
 #define VLIEGDEKSCHIP_H
 
-#include <string>
+#include "includeHeaders.h"
 #include "boot.h"
 
 namespace ZEESLAG

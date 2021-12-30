@@ -1,7 +1,7 @@
 #ifndef SPEELVELD_H
 #define SPEELVELD_H
 
-#include <string>
+#include "includeHeaders.h"
 #include "speler.h"
 #include "spelerID.h"
 

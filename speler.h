@@ -3,10 +3,7 @@
 
 #include "speelveld.h"
 #include "spelerID.h"
-#include <stdio.h>
-#include <iostream>
-#include <string.h>
-#include <cctype>
+#include "includeHeaders.h"
 
 using namespace std;
 

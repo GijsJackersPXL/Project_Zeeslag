@@ -99,7 +99,10 @@ GEBRUIK:
 - wordt overal gebruikt 
 
 19
-
+2 useful unsigned chars or other better usage of memory efficient type
+- een type card bestaat niet => unsigned char
+GEBRUIK:
+- tekenen van rand rond het veld in BESTAND___ZOEKEN
 
 20
 
@@ -144,35 +147,16 @@ no mistake in object-oriented programming
 
 no globals, but statics if needed
 
-
-
-
+using the best suited type on a lot of places (almost everywhere possible)
 
 maintainability by clean uniform code style and good function naming and/or comments everywhere
 - goede naamgeving is beter als commentaar
 
-using the best suited type on a lot of places (almost everywhere possible)
-
-
-
-
-2 useful unsigned chars or other better usage of memory efficient type
-- een type card bestaat niet => unsigned char
-
-at least 4 useful const references
-
-correctly using const in almost all places (almost everywhere possible)
-
 at least 4 useful bool
+- (hit/!, gezonken/!, )
 
-useful pointer declaration and usage
 
-dynamic memory allocation (new)
 
-dynamic memory removing (delete)
-
-2 useful (modern) call-by-references
-- als argument ( &a , &b)
 
 useful container class
 - std list
@@ -211,14 +195,23 @@ one complete project that compiles and does not crash
 
 working build manual as readme on GitHub (project must be possible to build from scratch on a clean PC)
 
-solved on 8 bug tickets
-
-reported 8 bug tickets on other projects
-
 useful usage of an external library (not Qt)
 - lib file
 
 a nice extra that you think that should deserve grading (stuff you put time in and is not rewarded by an item above)
+
+at least 4 useful const references
+
+correctly using const in almost all places (almost everywhere possible)
+
+useful pointer declaration and usage
+
+dynamic memory allocation (new)
+
+dynamic memory removing (delete)
+
+2 useful (modern) call-by-references
+- als argument ( &a , &b)
 
 
 
@@ -237,3 +230,8 @@ usage of a GUI
 usage of OpenGL or other 3D engine
 
 project that works with hardware
+
+solved on 8 bug tickets
+
+reported 8 bug tickets on other projects
+

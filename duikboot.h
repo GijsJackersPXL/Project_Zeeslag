@@ -1,8 +1,7 @@
 #ifndef DUIKBOOT_H
 #define DUIKBOOT_H
 
-#include <iostream>
-#include <string>
+#include "includeHeaders.h"
 #include "boot.h"
 
 namespace ZEESLAG

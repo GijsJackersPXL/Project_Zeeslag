@@ -3,11 +3,7 @@
 
 //g++ zeeslag.cpp spel.cpp boot.cpp 
 
-#include <stdio.h>
-#include <iostream>
-#include <string.h>
-using namespace std;
-
+#include "includeHeaders.h"
 #include "spel.h"
 #include "boot.h"
 #include "patrouilleschip.h"
@@ -15,6 +11,10 @@ using namespace std;
 #include "torpedobootjager.h"
 #include "slagschip.h"
 #include "vliegdekschip.h"
+
+using namespace std;
+
+
 
 
 using namespace ZEESLAG;

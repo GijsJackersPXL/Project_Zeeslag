@@ -1,8 +1,7 @@
 #ifndef SPEL_H
 #define SPEL_H
 
-#include <stdlib.h>
-#include <iostream>
+#include "includeHeaders.h"
 //#include "speler.h"
 
 namespace ZEESLAG

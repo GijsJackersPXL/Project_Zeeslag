@@ -1,9 +1,7 @@
 #ifndef BOOT_H
 #define BOOT_H
 
-#include <string>
-#include <stdlib.h>
-#include <iostream>
+#include "includeHeaders.h"
 //#include "speelveld.h"
 using namespace std;
 

@@ -1,8 +1,7 @@
 #ifndef PATROUILLESCHIP_H
 #define PATROUILLESCHIP_H
 
-#include <iostream>
-#include <string>
+#include "includeHeaders.h"
 
 #include "boot.h"
 namespace ZEESLAG
