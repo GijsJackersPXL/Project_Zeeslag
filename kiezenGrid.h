@@ -4,14 +4,16 @@
 #include <string>
 //#include "... .h"
 
-
-class kiezenGrid
+namespace ZEESLAG
 {
-        private int veld[10][10] = {0};
-        
-	public:
-        //speelveld()
-	
-};
+        class kiezenGrid
+        {
+                private int veld[10][10] = {0};
+                
+                public:
+                //speelveld()
+                
+        };
+}
 
 #endif  KIEZENGRID_H

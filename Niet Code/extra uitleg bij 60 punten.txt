@@ -93,7 +93,10 @@ GEBRUIK:
 - wordt gebruikt in boot.h en boot.cpp
 
 18
-
+everything in one or more self-made namespace(s)
+- https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm
+GEBRUIK:
+- wordt overal gebruikt 
 
 19
 
@@ -141,8 +144,9 @@ no mistake in object-oriented programming
 
 no globals, but statics if needed
 
-everything in one or more self-made namespace(s)
-- https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm
+
+
+
 
 maintainability by clean uniform code style and good function naming and/or comments everywhere
 - goede naamgeving is beter als commentaar

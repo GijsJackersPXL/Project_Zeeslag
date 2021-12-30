@@ -5,11 +5,14 @@
 #include <iostream>
 //#include "speler.h"
 
-class Spel
+namespace ZEESLAG
 {
-    public: 
-        void intro();
-        void outro();
-};
+    class Spel
+    {
+        public: 
+            void intro();
+            void outro();
+    };
+}
 
 #endif // SPEL_H

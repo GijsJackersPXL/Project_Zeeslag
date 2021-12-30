@@ -5,14 +5,16 @@
 #include "speler.h"
 #include "spelerID.h"
 
-class speelveld
+namespace ZEESLAG
 {
-        private:
-                int veld[10][10] = {0};
-        
-	public:
-        //speelveld()
-	
-};
-
+        class speelveld
+        {
+                private:
+                        int veld[10][10] = {0};
+                
+                public:
+                //speelveld()
+                
+        };
+}
 #endif  // SPEELVELD_H

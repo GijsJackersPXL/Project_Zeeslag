@@ -7,6 +7,7 @@
 
 using namespace std;
 
+//using namespace ZEESLAG;
 int main( int argumentCount, char * argumentVector[] )
 {
     int geschotenPunten[9][9];

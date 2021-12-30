@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
+using namespace std;
 
 #include "spel.h"
 #include "boot.h"
@@ -15,8 +16,8 @@
 #include "slagschip.h"
 #include "vliegdekschip.h"
 
-using namespace std;
 
+using namespace ZEESLAG;
 int main( int argumentCount, char * argumentVector[] )
 {
     /*
@@ -37,7 +38,7 @@ int main( int argumentCount, char * argumentVector[] )
     }
     cout << "Einde programma" << endl;
     */
-   cout << "\n";
+    cout << "\n";
 
     Spel Spel1;
     Spel1.intro(); 
@@ -77,6 +78,6 @@ int main( int argumentCount, char * argumentVector[] )
 
     Vliegdekschip Vliegdekschip1;
     cout << "Vliegdekschip1 breedte: " << Vliegdekschip1.getBreedte() << endl;
-   
+
     return (0);
 }
