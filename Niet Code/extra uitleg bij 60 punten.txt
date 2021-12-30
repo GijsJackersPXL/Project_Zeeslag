@@ -110,7 +110,9 @@ GEBRUIK:
 - wordt gebruikt in zeeslag.cpp
 
 21
-
+working build manual as readme on GitHub (project must be possible to build from scratch on a clean PC)
+GEBRUIK:
+- wordt gebruikt README.md
 
 22
 
@@ -157,10 +159,11 @@ maintainability by clean uniform code style and good function naming and/or comm
 at least 4 useful bool
 - (hit/!, gezonken/!, )
 
+
+
+
+
 useful Qt class
-
-
-
 
 useful container class
 - std list
@@ -189,9 +192,6 @@ useful usage of signals/slots
 useful usage of lambda function
 
 one complete project that compiles and does not crash
-
-working build manual as readme on GitHub (project must be possible to build from scratch on a clean PC)
--aan bezig...
 
 useful usage of an external library (not Qt)
 - lib file
