@@ -10,6 +10,7 @@ namespace ZEESLAG
     {
         public: 
             void intro();
+            void uitleg();
             void outro();
     };
 }

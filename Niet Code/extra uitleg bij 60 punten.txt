@@ -105,7 +105,9 @@ GEBRUIK:
 - tekenen van rand rond het veld in BESTAND___ZOEKEN
 
 20
-
+correct and useful usage of command line parameters
+GEBRUIK:
+- wordt gebruikt in zeeslag.cpp
 
 21
 
@@ -155,13 +157,13 @@ maintainability by clean uniform code style and good function naming and/or comm
 at least 4 useful bool
 - (hit/!, gezonken/!, )
 
+useful Qt class
+
 
 
 
 useful container class
 - std list
-
-useful Qt class
 
 useful operator overloading
 
@@ -182,11 +184,6 @@ useful recursive function
 
 useful usage of nullptr
 
-useful usage of (modern) file-I/O
-- std stream
-
-correct and useful usage of command line parameters
-
 useful usage of signals/slots
 
 useful usage of lambda function
@@ -194,6 +191,7 @@ useful usage of lambda function
 one complete project that compiles and does not crash
 
 working build manual as readme on GitHub (project must be possible to build from scratch on a clean PC)
+-aan bezig...
 
 useful usage of an external library (not Qt)
 - lib file
@@ -235,3 +233,5 @@ solved on 8 bug tickets
 
 reported 8 bug tickets on other projects
 
+useful usage of (modern) file-I/O
+- std stream

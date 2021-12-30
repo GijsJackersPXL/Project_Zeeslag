@@ -14,12 +14,18 @@
 
 using namespace std;
 
-
-
-
 using namespace ZEESLAG;
 int main( int argumentCount, char * argumentVector[] )
 {
+    Spel Spel1;
+
+    if (argumentCount == 2 && (strcmp(argumentVector[1], "--help") == 0)) //help functie
+	{
+		//cout << "Uitleg spel.cpp\n";
+		Spel1.uitleg();
+        exit(EXIT_FAILURE);
+	}
+
     /*
     //-----VRAGEN VAN NAMEN----//
     printf("\n\n----VRAGEN VAN NAMEN---- \n\n");
@@ -40,7 +46,7 @@ int main( int argumentCount, char * argumentVector[] )
     */
     cout << "\n";
 
-    Spel Spel1;
+    
     Spel1.intro(); 
 
     /*Patrouilleschip Patrouille1;

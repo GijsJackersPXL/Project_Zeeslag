@@ -20,7 +20,11 @@ namespace ZEESLAG
         cout << "DOEL VAN HET SPEL: \n";
         cout << "Doel is dat beide spelers zo door gericht te raden proberen als eerste de volledige locaties van alle schepen van de tegenstander te raden en zo \n";
         cout << "de vloot van de tegenstander 'tot zinken' te brengen. Wanneer alle coördinaten van een schip zijn geraakt, is het schip gezonken.\n\n";
+    
+    }
 
+    void Spel::uitleg()
+    {
         cout << "HOE PLAATS JE EN BOOT \n";
         cout << "Eerst gaat er gevraagd worden om je booten te plaatsen. De regels voor boten te plaatsen is dat de boten elkaar nooit mogen raken. \n";
         cout << "Er gaat gevraagd worden voor de coordinaten van de 1ste boot. Hier geef je eerst een letter(A-J) daarna een cijfer(0-9) als je dat hebt ingegeven duw je op enter  \n";
@@ -29,9 +33,6 @@ namespace ZEESLAG
         
         cout << "HOE SPEEL JE HET SPEL IN DE CONSOLE: \n";
         cout << "Dadelijk als je het spel gaat starten gaat er ...(uitleg nog afwerken) \n";
-
-        //...
-        //printf(" \n");
     }
 
     void Spel::outro()
