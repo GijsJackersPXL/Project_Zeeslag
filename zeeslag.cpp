@@ -35,7 +35,9 @@ int main( int argumentCount, char * argumentVector[] )
 
     cout << "getNaam: " << Speler1.getNaam() << endl;
     
-    cout << "getInstance: " << Speler1.getInstance() << endl;
+    cout << "getInstance: " << Speler1.getInstance( ) << endl;
+
+    Speler1.printID();
     
 
     /*

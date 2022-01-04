@@ -24,6 +24,6 @@ namespace ZEESLAG
 
     unsigned char Speler::getInstance() const
     { 
-        return instance; 
+        return this->instance; 
     }
 }

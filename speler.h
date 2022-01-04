@@ -17,9 +17,11 @@ namespace ZEESLAG
                 public: 
                         Speler( unsigned char instance = 0 ): instance(instance){}
                         unsigned char getInstance() const;
+                        void printID( void ) const { std::cout << (short) this->getInstance(); }
                         void setNaam(string naam);
                         string getNaam();
                         void vraagNaam();
+                        
                 protected:
                         const unsigned char instance;
         };
