@@ -16,6 +16,7 @@
 using namespace std;
 
 using namespace ZEESLAG;
+int Speler::instances = 0;
 int main( int argumentCount, char * argumentVector[] )
 {
     Spel Spel1;
@@ -30,26 +31,31 @@ int main( int argumentCount, char * argumentVector[] )
     //Spel1.intro(); 
     
     Speler Speler1;
+    Speler Speler2;
 
-    Speler1.vraagNaam();
+    //test pointers
+    Patrouilleschip Patrouille1; //default constructor
+    Patrouilleschip Patrouille2(3,4); //specific constructor 
 
-    cout << "getNaam: " << Speler1.getNaam() << endl;
+    Patrouilleschip *ptrPatrouilleschip; // Declare pointer to a class.
+
+    ptrPatrouilleschip = &Patrouille1; // Sla het adres van het eerste object op
+    ptrPatrouilleschip->setX(11); //positie met setter aanpassen
+    ptrPatrouilleschip->setY(12); //positie met setter aanpassen
+    cout << "Patrouille1 breedte: " << ptrPatrouilleschip->getBreedte() << endl;
+    cout << "Patrouille1 coordinaat x: " << ptrPatrouilleschip->getX() << endl;
+    cout << "Patrouille1 coordinaat y: " << ptrPatrouilleschip->getY() << endl;
+
+    ptrPatrouilleschip = &Patrouille2; // Sla het adres van het tweede object op
+    cout << "Patrouille2 breedte: " << ptrPatrouilleschip->getBreedte() << endl;
+    cout << "Patrouille2 coordinaat x: " << ptrPatrouilleschip->getX() << endl;
+    cout << "Patrouille2 coordinaat y: " << ptrPatrouilleschip->getY() << endl;
     
-    cout << "getInstance: " << Speler1.getInstance( ) << endl;
+    return (0);
+}
 
-    Speler1.printID();
-    
-
-    /*
-    //-----VRAGEN VAN NAMEN----//
-    printf("\n\n----VRAGEN VAN NAMEN---- \n\n");
-
-    cout << "De naam van speler1: " << endl;
-    cout << "You: ";
-    string naamSpeler1;
-    getline(cin, naamSpeler1);
+/*
     cout << "Hey, " << naamSpeler1 << "! Wil je zeeslag starten?\n";
-
     //cerr << "Wilt u zeeslag starten?" << endl;
     if( getchar() != 'y' )
     {
@@ -57,27 +63,4 @@ int main( int argumentCount, char * argumentVector[] )
         return( 0 );
     }
     cout << "Einde programma" << endl;
-    
-    cout << "\n";
-    */
-    
-    
-    /*
-    Patrouilleschip Patrouille1;
-    Patrouille1.setX(1); //positie met setter aanpassen
-    Patrouille1.setY(2); //positie met setter aanpassen
-    cout << "\n\nPatrouille1 breedte: " << Patrouille1.getBreedte() << endl;
-    cout << "Patrouille1 coordinaat x: " << Patrouille1.getX() << endl;
-    cout << "Patrouille1 coordinaat y: " << Patrouille1.getY() << endl;
-
-    Patrouilleschip Patrouille2(3,4); //positie met constructor meegeven
-    cout << "Patrouille2 breedte: " << Patrouille2.getBreedte() << endl;
-    cout << "Patrouille2 coordinaat x: " << Patrouille2.getX() << endl;
-    cout << "Patrouille2 coordinaat y: " << Patrouille2.getY() << endl;
-
-    Patrouille2.setPositie(4,5); //posietie aanpassen met setter
-    cout << "Patrouille2 coordinaat x: " << Patrouille2.getX() << endl;
-    cout << "Patrouille2 coordinaat y: " << Patrouille2.getY() << endl;
-    */
-    return (0);
-}
+*/

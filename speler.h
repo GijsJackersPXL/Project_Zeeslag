@@ -11,19 +11,20 @@ namespace ZEESLAG
 {
         class Speler
         {
-                private: 
+                private:
                         string naam;
                         int punten;
-                public: 
-                        Speler( unsigned char instance = 0 ): instance(instance){}
-                        unsigned char getInstance() const;
-                        void printID( void ) const { std::cout << (short) this->getInstance(); }
+                        static int instances;
+
+                public:
+                        Speler() { instances++; vraagNaam();}
+                        ~Speler() { instances--; }
                         void setNaam(string naam);
                         string getNaam();
                         void vraagNaam();
-                        
+                        int getInstance();
+
                 protected:
-                        const unsigned char instance;
         };
 }
 

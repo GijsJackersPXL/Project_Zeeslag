@@ -19,7 +19,7 @@ namespace ZEESLAG
         public:
             Boot(int formaat) : breedte { formaat } {}
             Boot(int formaat, int x, int y) : breedte { formaat } , coordinaat_x { x }, coordinaat_y { y }{}
-            ~Boot() {} //Destructor
+            virtual ~Boot() {} //Destructor
             
             int getX();
             int getY();

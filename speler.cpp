@@ -5,11 +5,14 @@ namespace ZEESLAG
 {
     void Speler::vraagNaam()
     {
-        cout << "De naam van speler" << getInstance() << ": " << endl;
+        cout << "De naam van speler";
+        //printID();
+        cout << getInstance() << ": " << endl;
         string naamSpeler;
         getline(cin, naamSpeler);
         setNaam(naamSpeler);
         cout << "Hey, " << naamSpeler << endl;
+    
     }
     
     void Speler::setNaam(string naam)
@@ -22,8 +25,9 @@ namespace ZEESLAG
         return naam;
     }
 
-    unsigned char Speler::getInstance() const
+    int Speler::getInstance()
     { 
-        return this->instance; 
+        return this->instances; 
     }
+
 }

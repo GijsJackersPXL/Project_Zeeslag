@@ -115,25 +115,27 @@ GEBRUIK:
 - wordt gebruikt README.md
 
 22
-
+useful virtual function
+- gebruik de functie ook, niet alleen maken...
+- https://www.geeksforgeeks.org/virtual-function-cpp/
+GEBRUIK:
+- wordt gebruikt in boot.h (virtual ~Boot()) 
 
 23
-
+useful pointer declaration and usage
+GEBRUIK:
+- wordt gebruikt in main.cpp (r40, r42) 
 
 24
-
+2 useful (modern) call-by-references
+- als argument ( &a , &b)
+GEBRUIK:
+- wordt gebruikt in main.cpp (r42, r449) 
 
 25
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 OPNIEUW BEKIJKEN:
-
-useful virtual function
-- gebruik de functie ook, niet alleen maken...
-- https://www.geeksforgeeks.org/virtual-function-cpp/
-GEBRUIK:
-- wordt gebruikt in boot.h (virtual int getBreedte()) 
-// opnieuw bekijken!!!!
 
 useful proven (dynamic) polymorphism
 - https://www.geeksforgeeks.org/polymorphism-in-c/
@@ -202,14 +204,11 @@ at least 4 useful const references
 
 correctly using const in almost all places (almost everywhere possible)
 
-useful pointer declaration and usage
-
 dynamic memory allocation (new)
 
 dynamic memory removing (delete)
 
-2 useful (modern) call-by-references
-- als argument ( &a , &b)
+
 
 
 
