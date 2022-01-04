@@ -27,7 +27,10 @@ int main( int argumentCount, char * argumentVector[] )
 
     Spel Spel1;
     
-    //test pointers
+    //waar wil je de boot?
+    // coordinaatx, coordinaaty
+    // constructorVanBoot(coordinaatx,coordinaaty)
+
     Patrouilleschip Patrouille1; //default constructor
     Patrouilleschip Patrouille2(3,4); //specific constructor 
 

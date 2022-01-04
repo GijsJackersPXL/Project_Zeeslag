@@ -124,13 +124,13 @@ GEBRUIK:
 23
 useful pointer declaration and usage
 GEBRUIK:
-- wordt gebruikt in main.cpp (r40, r42) 
+- wordt gebruikt in main.cpp (r31, r35) 
 
 24
 2 useful (modern) call-by-references
 - als argument ( &a , &b)
 GEBRUIK:
-- wordt gebruikt in main.cpp (r42, r449) 
+- wordt gebruikt in main.cpp (r35, r42) 
 
 25
 
