@@ -24,17 +24,17 @@ namespace ZEESLAG
         this->coordinaat_y = coordinaat_y;
     }
 
-    int Boot:: getX()
+    int Boot::getX()
     {
         return coordinaat_x;
     }
 
-    int Boot:: getY()
+    int Boot::getY()
     {
         return coordinaat_y;
     }
 
-    int Boot:: getBreedte()
+    int Boot::getBreedte()
     {
         return breedte;
     }

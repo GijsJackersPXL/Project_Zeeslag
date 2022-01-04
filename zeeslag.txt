@@ -1,0 +1,20 @@
+main
+{
+    Duikboot Duikboot1(1,2);
+    cout << "Duikboot1 breedte: " << Duikboot1.getBreedte() << endl;
+
+    Torpedobootjager Torpedobootjager1(1,2);
+    cout << "Torpedobootjager1 breedte: " << Torpedobootjager1.getBreedte() << endl;
+    
+    Slagschip Slagschip1;
+    cout << "Slagschip1 breedte: " << Slagschip1.getBreedte() << endl;
+    
+    Slagschip Slagschip2(5,6);
+    cout << "Slagschip2 breedte: " << Slagschip2.getBreedte() << endl;
+    cout << "Slagschip2 coordinaat x: " << Slagschip2.getX() << endl;
+    cout << "Slagschip2 coordinaat y: " << Slagschip2.getY() << endl;
+
+    Vliegdekschip Vliegdekschip1;
+    cout << "Vliegdekschip1 breedte: " << Vliegdekschip1.getBreedte() << endl;
+}
+    

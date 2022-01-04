@@ -17,8 +17,8 @@ namespace ZEESLAG
                 : Boot{ 2, x, y }
             {
             }
-            ~Patrouilleschip() {
-                cout<<"Inside Destructor patrouilleschip\n";
+            ~Patrouilleschip() { //Destructor patrouilleschip
+                //cout<<"Inside Destructor patrouilleschip\n";
             }
     };
 

@@ -8,10 +8,12 @@ namespace ZEESLAG
 {
     class Spel
     {
+        
         public: 
             void intro();
             void uitleg();
             void outro();
+            
     };
 }
 

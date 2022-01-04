@@ -20,7 +20,6 @@ namespace ZEESLAG
         cout << "DOEL VAN HET SPEL: \n";
         cout << "Doel is dat beide spelers zo door gericht te raden proberen als eerste de volledige locaties van alle schepen van de tegenstander te raden en zo \n";
         cout << "de vloot van de tegenstander 'tot zinken' te brengen. Wanneer alle coördinaten van een schip zijn geraakt, is het schip gezonken.\n\n";
-    
     }
 
     void Spel::uitleg()

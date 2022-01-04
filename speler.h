@@ -9,19 +9,19 @@ using namespace std;
 
 namespace ZEESLAG
 {
-        class speler
+        class Speler
         {
                 private: 
                         string naam;
-
-                public: /*
-                        speler(string naam){this.naam = naam;}
-                        string getnaam(){return this.naam;}
-                        //speler( unsigned char instance = 0 ): instance(instance){}
-                        //unsigned char getInstance( void ) const	{return instance;}*/
-
+                        int punten;
+                public: 
+                        Speler( unsigned char instance = 0 ): instance(instance){}
+                        unsigned char getInstance() const;
+                        void setNaam(string naam);
+                        string getNaam();
+                        void vraagNaam();
                 protected:
-                        //const unsigned char instance;
+                        const unsigned char instance;
         };
 }
 
