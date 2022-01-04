@@ -2,7 +2,7 @@
 #define SPEL_H
 
 #include "includeHeaders.h"
-//#include "speler.h"
+#include "speler.h"
 
 namespace ZEESLAG
 {
@@ -10,10 +10,12 @@ namespace ZEESLAG
     {
         
         public: 
+            Spel() { /* intro(); */ spelersAanmaken(); /* outro(); */ }
+            Spel(bool i) { uitleg(); }
             void intro();
             void uitleg();
             void outro();
-            
+            void spelersAanmaken();
     };
 }
 

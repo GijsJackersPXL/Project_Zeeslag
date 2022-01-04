@@ -159,7 +159,7 @@ maintainability by clean uniform code style and good function naming and/or comm
 - goede naamgeving is beter als commentaar
 
 at least 4 useful bool
-- (hit/!, gezonken/!, )
+- (hit/!, gezonken/!, help functie, )
 
 
 
