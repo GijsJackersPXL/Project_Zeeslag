@@ -22,11 +22,11 @@ int main( int argumentCount, char * argumentVector[] )
 
     Spel Spel1;
 
-    // Speelveld speelveld;
-    // speelveld.print();
+    Speelveld speelveld;
+    speelveld.printSpeelveld();
 
     Spel1.printbreedte();
-    
+
     return (0);
 }
 //waar wil je de boot?

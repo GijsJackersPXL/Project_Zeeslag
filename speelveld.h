@@ -10,10 +10,17 @@ namespace ZEESLAG
         class Speelveld
         {
                 private:
-                        int veld[10][10] = {0};
+                        bool speelveld[10][10] = {0};
+                        bool geschotenPunten[10][10] {};
+                        unsigned char linkerBovenHoek = 201;
+                        unsigned char rechterBovenHoek = 187;
+                        unsigned char linkerOnderHoek = 200;
+                        unsigned char rechterOnderHoek = 188;
+                        unsigned char horizontaal= 205;
+                        unsigned char verticaal = 186;
                 
                 public:
-                        void print();
+                        void printSpeelveld();
                         void getPositie(Boot& boot);
                 
         };

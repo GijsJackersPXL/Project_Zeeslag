@@ -7,7 +7,7 @@ using namespace std;
 //using namespace ZEESLAG;
 int main( int argumentCount, char * argumentVector[] )
 {
-    int geschotenPunten[9][9];
+    int geschotenPunten[9][9]{}; //int geschotenPunten[9][9]
     
     unsigned char linkerBovenHoek = 201;
     unsigned char recheterBovenHoek = 187;
