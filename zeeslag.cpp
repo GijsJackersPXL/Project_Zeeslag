@@ -1,18 +1,17 @@
-//Gijs Jackers
-//Martijn Guilliams
+//Gijs Jackers- Martijn Guilliams
 
-//g++ zeeslag.cpp spel.cpp boot.cpp speler.cpp
+//g++ zeeslag.cpp spel.cpp boot.cpp speler.cpp speelveld.cpp
 
 #include "includeHeaders.h"
 #include "includeBoten.h"
 #include "spel.h"
 #include "speler.h"
-
-
+#include "speelveld.h"
 using namespace std;
 
 using namespace ZEESLAG;
 int Speler::instances = 0;
+
 int main( int argumentCount, char * argumentVector[] )
 {
     if (argumentCount == 2 && (strcmp(argumentVector[1], "--help") == 0)) //help functie
@@ -21,10 +20,16 @@ int main( int argumentCount, char * argumentVector[] )
         exit(EXIT_FAILURE);
 	}
 
-
     Spel Spel1;
+
+    // Speelveld speelveld;
+    // speelveld.print();
+
+    Spel1.printbreedte();
     
-    //waar wil je de boot?
+    return (0);
+}
+//waar wil je de boot?
     // coordinaatx, coordinaaty
     // constructorVanBoot(coordinaatx,coordinaaty)
 
@@ -54,10 +59,6 @@ int main( int argumentCount, char * argumentVector[] )
     // cout << "Patrouille1 breedte: " << Patrouille1.getBreedte() << endl;
     // cout << "Patrouille1 coordinaat x: " << Patrouille1.getX() << endl;
     // cout << "Patrouille1 coordinaat y: " << Patrouille1.getY() << endl;
-
-    return (0);
-}
-
 /*
     cout << "Hey, " << naamSpeler1 << "! Wil je zeeslag starten?\n";
     //cerr << "Wilt u zeeslag starten?" << endl;

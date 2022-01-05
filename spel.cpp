@@ -40,6 +40,11 @@ namespace ZEESLAG
         cout << "U heeft zo vaak geschoten: \n"; // aantal schoten
         cout << "Aantal hits en misses: \n"; 
     }
+
+    void Spel::printbreedte()
+    {
+        speler1.printbreedte();
+    }
 }
 
 

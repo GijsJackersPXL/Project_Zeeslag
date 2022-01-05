@@ -31,6 +31,7 @@ namespace ZEESLAG
                         void vraagNaam();
                         int getInstance();
                         void botenAanmaken();
+                        void printbreedte();
                         
         };
 }

@@ -133,6 +133,26 @@ GEBRUIK:
 - wordt gebruikt in main.cpp (r35, r42) 
 
 25
+clean main (i.e. nothing in the main that should be in a class)
+
+26
+useful friend function or class
+- friend kunnen aan private delen van friend...
+GEBRUIK:
+- wordt gebruikt in speelveld.h
+
+27
+
+
+28
+
+
+29
+
+
+30
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 OPNIEUW BEKIJKEN:
@@ -142,8 +162,6 @@ useful proven (dynamic) polymorphism
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 NOG DOEN
-
-clean main (i.e. nothing in the main that should be in a class)
 
 useful class (explain why)
 
@@ -159,13 +177,15 @@ maintainability by clean uniform code style and good function naming and/or comm
 - goede naamgeving is beter als commentaar
 
 at least 4 useful bool
-- (hit/!, gezonken/!, help functie, )
-
-
-
-
+- (hit/!, gezonken/!, help functie, ) (speelveld.h positie schip??? )
 
 useful Qt class
+- https://doc.qt.io/qt-5/classes.html
+- geluid bij win 
+
+
+
+
 
 useful container class
 - std list
@@ -179,9 +199,6 @@ useful function overriding (non virtual)
 useful template function or class
 
 useful non-type template arguments
-
-useful friend function or class
-- friend kunnen aan private delen van friend...
 
 correct usage of inline function
 

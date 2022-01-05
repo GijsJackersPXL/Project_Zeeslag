@@ -2,17 +2,19 @@
 #define SPEELVELD_H
 
 #include "includeHeaders.h"
+#include "includeBoten.h"
 #include "speler.h"
 
 namespace ZEESLAG
 {
-        class speelveld
+        class Speelveld
         {
                 private:
                         int veld[10][10] = {0};
                 
                 public:
-                //speelveld()
+                        void print();
+                        void getPositie(Boot& boot);
                 
         };
 }

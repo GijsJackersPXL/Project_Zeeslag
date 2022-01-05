@@ -1,4 +1,5 @@
 #include "speler.h"
+#include "speelveld.h"
 
 using namespace std;
 
@@ -40,4 +41,9 @@ namespace ZEESLAG
         cout << "Torpedobootjager1 breedte: " << Torpedobootjager1.getBreedte() << endl;
     }
 
+    void Speler::printbreedte() //mogelijk om speelveld door te geven
+    {
+        Speelveld speelveld;
+        speelveld.getPositie(Patrouille1);
+    }
 }

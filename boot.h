@@ -36,6 +36,8 @@ namespace ZEESLAG
             void setX(int x);
             void setY(int y);
             void setPositie(int x, int y);
+
+            friend class Speelveld;
     };
 }
 
