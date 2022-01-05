@@ -14,6 +14,12 @@ namespace ZEESLAG
             int coordinaat_x;
             int coordinaat_y;
             void setBreedte(int formaat);
+            int getX();
+            int getY();
+            int getBreedte();
+            void setX(int x);
+            void setY(int y);
+            void setPositie(int x, int y);
 
         public:
             Boot(int formaat) : breedte { formaat } 
@@ -29,13 +35,6 @@ namespace ZEESLAG
             Boot(int formaat, int x, int y) : breedte { formaat } , coordinaat_x { x }, coordinaat_y { y }{}
             virtual ~Boot() {} //Destructor
             
-            int getX();
-            int getY();
-            int getBreedte();
-            void setX(int x);
-            void setY(int y);
-            void setPositie(int x, int y);
-
             friend class Speelveld;
     };
 }

@@ -142,16 +142,35 @@ GEBRUIK:
 - wordt gebruikt in speelveld.h
 
 27
-
+useful class (explain why)
+GEBRUIK:
+- wordt gebruikt in spel.h
 
 28
-
+correct protections
 
 29
-
+no globals, but statics if needed
+GEBRUIKTE STATIC:
+- wordt gebruikt in speler.h (instances)
 
 30
+using the best suited type on a lot of places (almost everywhere possible)
 
+31
+maintainability by clean uniform code style and good function naming and/or comments everywhere
+- goede naamgeving is beter als commentaar
+
+32
+
+
+33
+
+
+34
+
+
+35
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -163,18 +182,7 @@ useful proven (dynamic) polymorphism
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 NOG DOEN
 
-useful class (explain why)
-
-correct protections
-
 no mistake in object-oriented programming
-
-no globals, but statics if needed
-
-using the best suited type on a lot of places (almost everywhere possible)
-
-maintainability by clean uniform code style and good function naming and/or comments everywhere
-- goede naamgeving is beter als commentaar
 
 at least 4 useful bool
 - (hit/!, gezonken/!, help functie, ) (speelveld.h positie schip??? )
