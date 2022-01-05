@@ -10,7 +10,11 @@ namespace ZEESLAG
     {
         private:
             Speler speler1;
+            Speelveld speelveldSpeler1;
+            //bool geschotenPuntenSpeler1[10][10] {};
             Speler speler2;
+            Speelveld speelveldSpeler1;
+            //bool geschotenPuntenSpeler2[10][10] {};
 
         public: 
             Spel() { /* intro(); */ /* spelersAanmaken(); */ /* outro(); */ }

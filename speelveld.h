@@ -10,8 +10,8 @@ namespace ZEESLAG
         class Speelveld
         {
                 private:
-                        bool speelveld[10][10] = {0};
-                        bool geschotenPunten[10][10] {};
+                        // bool geschotenPunten[10][10] = {0};
+                        // bool eigenBoten[10][10] {};
                         unsigned char linkerBovenHoek = 201;
                         unsigned char rechterBovenHoek = 187;
                         unsigned char linkerOnderHoek = 200;

@@ -102,7 +102,7 @@ GEBRUIK:
 2 useful unsigned chars or other better usage of memory efficient type
 - een type card bestaat niet => unsigned char
 GEBRUIK:
-- tekenen van rand rond het veld in BESTAND___ZOEKEN
+- tekenen van rand rond het veld in speelveld.cpp
 
 20
 correct and useful usage of command line parameters
