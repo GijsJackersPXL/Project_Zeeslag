@@ -34,12 +34,6 @@ namespace ZEESLAG
         cout << "Dadelijk als je het spel gaat starten gaat er ...(uitleg nog afwerken) \n";
     }
 
-    void Spel::spelersAanmaken()
-    {
-        Speler Speler1;
-        Speler Speler2;
-    }
-
     void Spel::outro()
     {
         cout << "De winnaar is \n"; // naam erin zetten
@@ -47,3 +41,10 @@ namespace ZEESLAG
         cout << "Aantal hits en misses: \n"; 
     }
 }
+
+
+// void Spel::spelersAanmaken()
+// {
+//     Speler Speler1;
+//     Speler Speler2;
+// }

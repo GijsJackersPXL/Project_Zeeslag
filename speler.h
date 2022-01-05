@@ -16,16 +16,22 @@ namespace ZEESLAG
                         string naam;
                         int punten;
                         static int instances;
-
+                        
+                        Patrouilleschip Patrouille1;
+                        Torpedobootjager Torpedobootjager1;
+                        //Slagschip Slagschip1;
+                        //Vliegdekschip Vliegdekschip1;
+                        //Duikboot Duikboot1;
+                        
                 public:
-                        Speler() { instances++; vraagNaam(); }
+                        Speler() { instances++; vraagNaam(); botenAanmaken();}
                         ~Speler() { instances--; }
                         void setNaam(string naam);
                         string getNaam();
                         void vraagNaam();
                         int getInstance();
                         void botenAanmaken();
-                        //Patrouilleschip Patrouille1;
+                        
         };
 }
 

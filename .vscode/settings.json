@@ -6,6 +6,8 @@
     "files.associations": {
         "iostream": "cpp",
         "xstring": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "string": "cpp",
+        "ostream": "cpp"
     }
 }

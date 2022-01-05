@@ -17,7 +17,16 @@ namespace ZEESLAG
             void setBreedte(int formaat);
 
         public:
-            Boot(int formaat) : breedte { formaat } {}
+            Boot(int formaat) : breedte { formaat } 
+            {
+                // cout << "Geef de x coordinaat voor de boot: ";
+                // cin >> coordinaat_x;
+                // //cout << coordinaat_x;
+                // cout << "Geef de y coordinaat voor de boot: ";
+                // cin >> coordinaat_y;
+                // //cout << coordinaat_y;
+                // setPositie(coordinaat_x, coordinaat_y);
+            }
             Boot(int formaat, int x, int y) : breedte { formaat } , coordinaat_x { x }, coordinaat_y { y }{}
             virtual ~Boot() {} //Destructor
             
