@@ -15,9 +15,6 @@ int main( int argumentCount, char * argumentVector[] )
     unsigned char rechterOnderHoek = 188;
     unsigned char horizontaal= 205;
     unsigned char verticaal = 186;
-
-    //cout << linkerBovenHoek << recheterBovenHoek << "\n";
-    //cout << linkerOnderHoek << rechterOnderHoek << "\n";
     
     string stop = "";
     while (stop != "y" && stop != "Y")

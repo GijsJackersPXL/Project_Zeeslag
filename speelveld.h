@@ -3,7 +3,6 @@
 
 #include "includeHeaders.h"
 #include "speler.h"
-#include "spelerID.h"
 
 namespace ZEESLAG
 {

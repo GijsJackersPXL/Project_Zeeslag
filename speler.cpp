@@ -1,4 +1,5 @@
 #include "speler.h"
+
 using namespace std;
 
 namespace ZEESLAG
@@ -29,5 +30,13 @@ namespace ZEESLAG
     { 
         return this->instances; 
     }
-
+    
+    void Speler::botenAanmaken()
+    {
+        Patrouilleschip Patrouille1;
+        Torpedobootjager Torpedobootjager1;
+        Slagschip Slagschip1;
+        Vliegdekschip Vliegdekschip1;
+        Duikboot Duikboot1;
+    }
 }

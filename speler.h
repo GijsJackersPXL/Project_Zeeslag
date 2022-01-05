@@ -2,11 +2,12 @@
 #define SPELER_H
 
 #include "speelveld.h"
-#include "spelerID.h"
+#include "includeBoten.h"
 #include "includeHeaders.h"
 
 using namespace std;
 
+//class Patrouilleschip;
 namespace ZEESLAG
 {
         class Speler
@@ -17,14 +18,14 @@ namespace ZEESLAG
                         static int instances;
 
                 public:
-                        Speler() { instances++; vraagNaam();}
+                        Speler() { instances++; vraagNaam(); }
                         ~Speler() { instances--; }
                         void setNaam(string naam);
                         string getNaam();
                         void vraagNaam();
                         int getInstance();
-
-                protected:
+                        void botenAanmaken();
+                        //Patrouilleschip Patrouille1;
         };
 }
 

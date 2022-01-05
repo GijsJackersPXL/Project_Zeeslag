@@ -4,14 +4,10 @@
 //g++ zeeslag.cpp spel.cpp boot.cpp speler.cpp
 
 #include "includeHeaders.h"
+#include "includeBoten.h"
 #include "spel.h"
 #include "speler.h"
-#include "boot.h"
-#include "patrouilleschip.h"
-#include "duikboot.h"
-#include "torpedobootjager.h"
-#include "slagschip.h"
-#include "vliegdekschip.h"
+
 
 using namespace std;
 
@@ -25,12 +21,16 @@ int main( int argumentCount, char * argumentVector[] )
         exit(EXIT_FAILURE);
 	}
 
+
     Spel Spel1;
     
     //waar wil je de boot?
     // coordinaatx, coordinaaty
     // constructorVanBoot(coordinaatx,coordinaaty)
 
+    
+    
+    
     Patrouilleschip Patrouille1; //default constructor
     Patrouilleschip Patrouille2(3,4); //specific constructor 
 

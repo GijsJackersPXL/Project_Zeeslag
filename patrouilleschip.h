@@ -21,7 +21,6 @@ namespace ZEESLAG
                 //cout<<"Inside Destructor patrouilleschip\n";
             }
     };
-   
 }
 
 #endif
