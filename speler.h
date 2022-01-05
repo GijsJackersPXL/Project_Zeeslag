@@ -16,22 +16,28 @@ namespace ZEESLAG
                         string naam;
                         int punten;
                         static int instances;
+                        Boot* ent[5];
                         
-                        Patrouilleschip Patrouille1;
-                        Torpedobootjager Torpedobootjager1;
-                        //Slagschip Slagschip1;
-                        //Vliegdekschip Vliegdekschip1;
-                        //Duikboot Duikboot1;
-                        
+
                 public:
-                        Speler() { instances++; vraagNaam(); botenAanmaken();}
+                        Speler() 
+                        { 
+                                instances++; 
+                                vraagNaam(); 
+                                ent[0] = new Patrouilleschip(); 
+                                ent[1] = new Torpedobootjager();
+                                ent[2] = new Slagschip();
+                                ent[3] = new Vliegdekschip();
+                                ent[4] = new Duikboot();
+                                //cout << "Breedte: " << ent[0]->getBreedte() << end1;   
+                        }
+
                         ~Speler() { instances--; }
                         void setNaam(string naam);
                         string getNaam();
                         void vraagNaam();
                         int getInstance();
-                        void botenAanmaken();
-                        void printbreedte();
+                        void printSpeelveld(Speelveld& speelveld);
                         
         };
 }

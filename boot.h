@@ -2,7 +2,6 @@
 #define BOOT_H
 
 #include "includeHeaders.h"
-//#include "speelveld.h"
 using namespace std;
 
 namespace ZEESLAG

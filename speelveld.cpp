@@ -5,16 +5,7 @@ using namespace std;
 namespace ZEESLAG
 {
     void Speelveld::printSpeelveld()
-    {
-        // for (int i = 0; i < 10; i++)
-        // {
-        //     for (int j = 0; j < 10; j++)
-        //     {
-        //         cout << speelveld[i][j];
-        //     }
-        //     cout << "\n";
-        // }
-        
+    {        
         geschotenPunten[1][1] = 1;
 
         //Grid printen
@@ -47,10 +38,5 @@ namespace ZEESLAG
             cout << horizontaal;
         }
         cout << rechterOnderHoek << "\n";
-    }
-
-    void Speelveld::getPositie(Boot& boot)
-    {
-        cout << "Breedte boot: " <<boot.breedte;
     }
 }

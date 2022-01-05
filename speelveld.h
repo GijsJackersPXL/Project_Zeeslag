@@ -3,15 +3,14 @@
 
 #include "includeHeaders.h"
 #include "includeBoten.h"
-#include "speler.h"
 
 namespace ZEESLAG
 {
         class Speelveld
         {
                 private:
-                        // bool geschotenPunten[10][10] = {0};
-                        // bool eigenBoten[10][10] {};
+                        bool geschotenPunten[10][10] {};
+                        bool eigenBoten[10][10] {};
                         unsigned char linkerBovenHoek = 201;
                         unsigned char rechterBovenHoek = 187;
                         unsigned char linkerOnderHoek = 200;
@@ -21,7 +20,6 @@ namespace ZEESLAG
                 
                 public:
                         void printSpeelveld();
-                        void getPositie(Boot& boot);
                 
         };
 }

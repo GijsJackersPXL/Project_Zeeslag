@@ -22,50 +22,5 @@ int main( int argumentCount, char * argumentVector[] )
 
     Spel Spel1;
 
-    Speelveld speelveld;
-    speelveld.printSpeelveld();
-
-    Spel1.printbreedte();
-
     return (0);
 }
-//waar wil je de boot?
-    // coordinaatx, coordinaaty
-    // constructorVanBoot(coordinaatx,coordinaaty)
-
-    
-    
-    /*
-    Patrouilleschip Patrouille1; //default constructor
-    Patrouilleschip Patrouille2(3,4); //specific constructor 
-
-    Patrouilleschip *ptrPatrouilleschip; // Declare pointer to a class.
-
-    ptrPatrouilleschip = &Patrouille1; // Sla het adres van het eerste object op
-    ptrPatrouilleschip->setX(11); //positie met setter aanpassen
-    ptrPatrouilleschip->setY(12); //positie met setter aanpassen
-    cout << "Patrouille1 breedte: " << ptrPatrouilleschip->getBreedte() << endl;
-    cout << "Patrouille1 coordinaat x: " << ptrPatrouilleschip->getX() << endl;
-    cout << "Patrouille1 coordinaat y: " << ptrPatrouilleschip->getY() << endl;
-
-    ptrPatrouilleschip = &Patrouille2; // Sla het adres van het tweede object op
-    cout << "Patrouille2 breedte: " << ptrPatrouilleschip->getBreedte() << endl;
-    cout << "Patrouille2 coordinaat x: " << ptrPatrouilleschip->getX() << endl;
-    cout << "Patrouille2 coordinaat y: " << ptrPatrouilleschip->getY() << endl;
-    */
-
-    //Patrouille1
-    // cout << "MAIN";
-    // cout << "Patrouille1 breedte: " << Patrouille1.getBreedte() << endl;
-    // cout << "Patrouille1 coordinaat x: " << Patrouille1.getX() << endl;
-    // cout << "Patrouille1 coordinaat y: " << Patrouille1.getY() << endl;
-/*
-    cout << "Hey, " << naamSpeler1 << "! Wil je zeeslag starten?\n";
-    //cerr << "Wilt u zeeslag starten?" << endl;
-    if( getchar() != 'y' )
-    {
-        cout << "Stop spel" << endl;
-        return( 0 );
-    }
-    cout << "Einde programma" << endl;
-*/

@@ -3,6 +3,7 @@
 
 #include "includeHeaders.h"
 #include "speler.h"
+#include "speelveld.h"
 
 namespace ZEESLAG
 {
@@ -11,19 +12,16 @@ namespace ZEESLAG
         private:
             Speler speler1;
             Speelveld speelveldSpeler1;
-            //bool geschotenPuntenSpeler1[10][10] {};
             Speler speler2;
-            Speelveld speelveldSpeler1;
-            //bool geschotenPuntenSpeler2[10][10] {};
+            Speelveld speelveldSpeler2;
 
         public: 
-            Spel() { /* intro(); */ /* spelersAanmaken(); */ /* outro(); */ }
+            Spel() { /* intro(); */ /* printSpeelveld(); */ /* outro(); */ }
             Spel(bool i) { uitleg(); }
             void intro();
             void uitleg();
             void outro();
-            //void spelersAanmaken();
-            void printbreedte();
+            void printSpeelveld();
     };
 }
 

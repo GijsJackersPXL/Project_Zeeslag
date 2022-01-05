@@ -1,5 +1,4 @@
 #include "speler.h"
-#include "speelveld.h"
 
 using namespace std;
 
@@ -28,22 +27,9 @@ namespace ZEESLAG
     { 
         return this->instances; 
     }
-    
-    void Speler::botenAanmaken()
-    {
-        //Patrouilleschip Patrouille1;
-        //Torpedobootjager Torpedobootjager1;
-        //Slagschip Slagschip1;
-        //Vliegdekschip Vliegdekschip1;
-        //Duikboot Duikboot1;
 
-        cout << "Patrouille1 breedte: " << Patrouille1.getBreedte() << endl;
-        cout << "Torpedobootjager1 breedte: " << Torpedobootjager1.getBreedte() << endl;
-    }
-
-    void Speler::printbreedte() //mogelijk om speelveld door te geven
+    void Speler::printSpeelveld(Speelveld& speelveld) 
     {
-        Speelveld speelveld;
-        speelveld.getPositie(Patrouille1);
+        speelveld.printSpeelveld();
     }
 }

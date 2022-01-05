@@ -29,27 +29,30 @@ namespace ZEESLAG
         cout << "Er gaat gevraagd worden voor de coordinaten van de 1ste boot. Hier geef je eerst een letter(A-J) daarna een cijfer(0-9) als je dat hebt ingegeven duw je op enter  \n";
         cout << "Als de coordinaat goedgekeurd is zal er gevraagd worden of de boot horizontaal(h) of vertikaal(v) komt te staan, maak je keuze \n";
         cout << "Je zal een goedkeuring krijgen als je boot gezet maar je kan ook een error krijgen als je boot verkeerd staat.\n\n";
-        
-        cout << "HOE SPEEL JE HET SPEL IN DE CONSOLE: \n";
-        cout << "Dadelijk als je het spel gaat starten gaat er ...(uitleg nog afwerken) \n";
     }
 
     void Spel::outro()
     {
-        cout << "De winnaar is \n"; // naam erin zetten
-        cout << "U heeft zo vaak geschoten: \n"; // aantal schoten
-        cout << "Aantal hits en misses: \n"; 
+        // speler1 en speler2 in array zetten voor kortere code
+        // speler[variabele].aantalschoten
+
+        // if (speler1.gewonnen == 1)
+        // {
+        //     cout << "De winnaar is" << speler1.getNaam() "\n";
+        //     cout << "U heeft zo vaak geschoten: \n"; // aantal schoten
+        //     cout << "Aantal hits en misses: \n"; 
+        // }
+        // else
+        // {
+        //     cout << "De winnaar is" << speler2.getNaam() "\n";
+        //     cout << "U heeft zo vaak geschoten: \n"; // aantal schoten
+        //     cout << "Aantal hits en misses: \n"; 
+        // }
+        cout << "Outro\n"; 
     }
 
-    void Spel::printbreedte()
+    void Spel::printSpeelveld()
     {
-        speler1.printbreedte();
+        speler1.printSpeelveld(speelveldSpeler1);
     }
 }
-
-
-// void Spel::spelersAanmaken()
-// {
-//     Speler Speler1;
-//     Speler Speler2;
-// }

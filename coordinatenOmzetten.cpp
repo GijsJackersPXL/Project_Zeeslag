@@ -45,6 +45,7 @@ int main( int argumentCount, char * argumentVector[] )
         
         geschotenPunten[coordinaatLetter][coordinaatCijfer] = 1;
 
+        /* 
         //Grid printen
         cout << linkerBovenHoek;
         for (int i = 0; i < 22; i++)
@@ -68,14 +69,6 @@ int main( int argumentCount, char * argumentVector[] )
                     cout << "." << " ";
                 }
                 
-                /*if (j == coordinaatCijfer && i == coordinaatLetter)
-                {
-                    cout << "X" << " ";
-                }
-                else
-                {
-                    cout << "." << " ";
-                }*/
             }
             cout << verticaal << "\n";
         }
@@ -84,7 +77,8 @@ int main( int argumentCount, char * argumentVector[] )
         {
             cout << horizontaal;
         }
-        cout << rechterOnderHoek << "\n";
+        cout << rechterOnderHoek << "\n"; 
+        */
 
         //vragen voor te stoppen
         cout << "Stoppen? (y/n)\n";
