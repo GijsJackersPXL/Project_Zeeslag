@@ -1,5 +1,3 @@
-GEBRUIKT!!!
-
 1
 clean main (i.e. nothing in the main that should be in a class)
 
@@ -35,7 +33,7 @@ GEBRUIK:
 7
 correct base class (van inheritance)
 GEBRUIK:
-- dit wordt gebruikt bij de klasse boot.h
+- boot.h is base class
 
 8
 correct abstract base class
@@ -70,7 +68,7 @@ GEBRUIK:
 14
 at least 2 destructors
 GEBRUIK:
-- wordt gebruikt in boot.h
+- wordt gebruikt in boot.h & patrouilleschip.h
 
 15
 useful usage of "this" (if the code does not work without it)
@@ -80,7 +78,7 @@ GEBRUIK:
 16
 useful member function
 GEBRUIK:
-- wordt gebruikt in boot.h en boot.cpp
+- wordt gebruikt in spel.h en spel.cpp
 
 17
 default values in function definition
@@ -100,11 +98,16 @@ GEBRUIK:
 
 20
 correct protections
+GEBRUIK:
+- normaalgezien elk .h bestand
+
+21
+no mistake in object-oriented programming
 
 22
 no globals, but statics if needed
 GEBRUIKTE STATIC:
-- wordt gebruikt in speler.h (instances)
+- wordt gebruikt in speler.h(r18) (instances)
 
 23
 everything in one or more self-made namespace(s)
@@ -123,65 +126,55 @@ separate header files
 2 useful unsigned chars or other better usage of memory efficient type
 - een type card bestaat niet => unsigned char
 GEBRUIK:
-- tekenen van rand rond het veld in speelveld.cpp
+- Rand rond het veld in speelveld.cpp
 
 27
 using the best suited type on a lot of places (almost everywhere possible)
 
+30
+at least 4 useful bool
+- (gezonken/!(speelveld.h)(r16), help functie(spel.cpp)(r20), eigenBoten[](speelveld.h)(r13), geschotenPunten[10][10] {}(r12)) 
+
 31
 useful pointer declaration and usage
 GEBRUIK:
-- wordt gebruikt in main.cpp (r31, r35) 
+- wordt gebruikt in zeeslag(voorbeeld main).txt (r8, r10, r17) 
 
 34
 2 useful (modern) call-by-references
-- als argument ( &a , &b)
 GEBRUIK:
-- wordt gebruikt in main.cpp (r35, r42) 
+- wordt gebruikt in zeeslag(voorbeeld main).txt (r10, r17) 
 
 35
 useful string class usage
 - std string
 GEBRUIK:
-- dit wordt gebruikt voor naamspeler
+- dit wordt gebruikt voor naamspeler in speler.h
 
 43
 useful friend function or class
 - friend kunnen aan private delen van friend...
 GEBRUIK:
-- wordt gebruikt in speelveld.h
+- wordt gebruikt in boot.h
 
 48
 correct and useful usage of command line parameters
 GEBRUIK:
-- wordt gebruikt in zeeslag.cpp
-
-52
-working build manual as readme on GitHub (project must be possible to build from scratch on a clean PC)
-GEBRUIK:
-- wordt gebruikt README.md
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-OPNIEUW BEKIJKEN:
-10
-useful proven (dynamic) polymorphism
-- https://www.geeksforgeeks.org/polymorphism-in-c/
+- wordt gebruikt in zeeslag.cpp(r17)
 
 51
 one complete project that compiles and does not crash
 
-21
-no mistake in object-oriented programming
-
-30
-at least 4 useful bool
-- (hit/!, gezonken/!, help functie, ) (speelveld.h positie schip??? )
-
+52
+working build manual as readme on GitHub (project must be possible to build from scratch on a clean PC)
+GEBRUIK:
+- wordt gebruikt in README.md
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+10
+useful proven (dynamic) polymorphism
+- https://www.geeksforgeeks.org/polymorphism-in-c/
 
 28
 at least 4 useful const references
@@ -189,13 +182,11 @@ at least 4 useful const references
 29
 correctly using const in almost all places (almost everywhere possible)
 
-
 32
 dynamic memory allocation (new)
 
 33
 dynamic memory removing (delete)
-
 
 36
 useful container class
@@ -219,7 +210,6 @@ useful template function or class
 42
 useful non-type template arguments
 
-
 44
 correct usage of inline function
 
@@ -233,13 +223,11 @@ useful usage of nullptr
 useful usage of (modern) file-I/O
 - std stream
 
-
 49
 useful usage of signals/slots
 
 50
 useful usage of lambda function
-
 
 53
 test-driven development (= written test plan or unit tests)
@@ -268,5 +256,3 @@ a nice extra that you think that should deserve grading (stuff you put time in a
 
 extra: 
 - een blad met uitleg over de functie, is handig als gij tijdens de 10min uitleg vraagt
-- 1-10 is basis!!!
-- waar niet useful staat moet ge gewoon aanmaken...

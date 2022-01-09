@@ -1,4 +1,4 @@
-//Gijs Jackers- Martijn Guilliams
+//Gijs Jackers - Martijn Guilliams
 
 //g++ zeeslag.cpp spel.cpp boot.cpp speler.cpp speelveld.cpp
 

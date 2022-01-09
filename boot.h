@@ -6,13 +6,14 @@ using namespace std;
 
 namespace ZEESLAG
 {
-    //parent & abstract class
+    //parent class
     class Boot
     {
         protected:
             int breedte;
             int coordinaat_x;
             int coordinaat_y;
+            bool gezonken; //meerdere geraakt => gezonken
             void setBreedte(int formaat);
             int getX();
             int getY();
@@ -40,7 +41,3 @@ namespace ZEESLAG
 }
 
 #endif // BOOT_H
-
-
-// https://en.cppreference.com/w/cpp/language/bit_field
-// https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/

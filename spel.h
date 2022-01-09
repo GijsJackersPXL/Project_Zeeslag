@@ -16,7 +16,7 @@ namespace ZEESLAG
             Speelveld speelveldSpeler2;
 
         public: 
-            Spel() { /* intro(); */ /* printSpeelveld(); */ /* outro(); */ }
+            Spel() { intro(); printSpeelveld(); outro(); }
             Spel(bool i) { uitleg(); }
             void intro();
             void uitleg();

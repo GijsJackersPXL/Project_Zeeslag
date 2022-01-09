@@ -6,7 +6,7 @@ namespace ZEESLAG
 {
     void Speelveld::printSpeelveld()
     {        
-        geschotenPunten[1][1] = 1;
+        //geschotenPunten[1][1] = 1; //Voorbeeld voor een hit op het speelveld
 
         //Grid printen
         cout << linkerBovenHoek;
