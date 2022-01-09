@@ -1,261 +1,272 @@
 GEBRUIKT!!!
 
-1 
+1
+clean main (i.e. nothing in the main that should be in a class)
+
+2
+useful class (explain why)
+GEBRUIK:
+- wordt gebruikt in spel.h
+
+3
+useful and correct encapsulation (explain why)
+GEBRUIK:
+- in boot.h, de variabellen staan in protected maar ze kunnen nog opgevraagd worden door de get...
+
+4 
 useful and correct inheritance (explain why)
 - een basis class en een afgeleide class
 - https://www.geeksforgeeks.org/inheritance-in-c/
 UITLEG: waar? en waarom?
 - dit wordt gebruikt bij de klasse boot.h
 
-2 
+5
 useful and correct object composition (explain why)
 - https://www.geeksforgeeks.org/introduction-to-complex-objects-and-composition/
 GEBRUIK: 
 - dit wordt gebruikt bij de klasse boot.h
 
-3 
+6 
 useful and correct multiple inheritance (explain why)
 - https://www.geeksforgeeks.org/inheritance-in-c/
 GEBRUIK: 
 - dit wordt gebruikt bij de klasse boot.h en bij onderliggende klassen
 
-4
+7
 correct base class (van inheritance)
 GEBRUIK:
 - dit wordt gebruikt bij de klasse boot.h
 
-5
-member initialization in constructors (the stuff behind a colon)
-GEBRUIK:
-- wordt gebruikt in boot.h = constructor met ':'
-
-6
-separate header files
-
-7
-useful and correct encapsulation (explain why)
-GEBRUIK:
-- in boot.h, de variabellen staan in protected maar ze kunnen nog opgevraagd worden door de get...
-
 8
-at least 2 default constructors
-- () is default, staat niet useful dus maak gewoon aan!!!
-GEBRUIK:
-- dit wordt gebruikt bij de klasse patrouilleschip.h en slagschip.h
-
-9
-at least 2 specific constructors
-- moet iets tussen de () staan, staat niet useful dus maak gewoon aan!!!
-GEBRUIK:
-- dit wordt gebruikt bij de klasse patrouilleschip.h en slagschip.h
-
-10
-at least 2 destructors
-GEBRUIK:
-- wordt gebruikt in boot.h
-
-11
-useful usage of "this" (if the code does not work without it)
-GEBRUIK:
-- wordt gebruikt in boot.cpp
-
-12
-useful member variabel
-GEBRUIK:
-- boot.h
-
-13
-useful getters and setters for member variables
-GEBRUIK:
-- boot.cpp
-
-14
-useful string class usage
-- std string
-GEBRUIK:
-- dit wordt gebruikt voor naamspeler
-
-15
 correct abstract base class
 - https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/
 GEBRUIK: 
 - dit wordt gebruikt bij de klasse abstractBaseClass.h
 
-16
-default values in function definition
-- int sum(int x, int y, int z = 0, int w = 0)
-GEBRUIK: 
-- dit wordt gebruikt bij de klasse abstractBaseClass.cpp
-
-17
-useful member function
-GEBRUIK:
-- wordt gebruikt in boot.h en boot.cpp
-
-18
-everything in one or more self-made namespace(s)
-- https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm
-GEBRUIK:
-- wordt overal gebruikt 
-
-19
-2 useful unsigned chars or other better usage of memory efficient type
-- een type card bestaat niet => unsigned char
-GEBRUIK:
-- tekenen van rand rond het veld in speelveld.cpp
-
-20
-correct and useful usage of command line parameters
-GEBRUIK:
-- wordt gebruikt in zeeslag.cpp
-
-21
-working build manual as readme on GitHub (project must be possible to build from scratch on a clean PC)
-GEBRUIK:
-- wordt gebruikt README.md
-
-22
+9
 useful virtual function
 - gebruik de functie ook, niet alleen maken...
 - https://www.geeksforgeeks.org/virtual-function-cpp/
 GEBRUIK:
 - wordt gebruikt in boot.h (virtual ~Boot()) 
 
+11
+at least 2 default constructors
+- () is default, staat niet useful dus maak gewoon aan!!!
+GEBRUIK:
+- dit wordt gebruikt bij de klasse patrouilleschip.h en slagschip.h
+
+12
+at least 2 specific / parameterized constructors
+- moet iets tussen de () staan, staat niet useful dus maak gewoon aan!!!
+GEBRUIK:
+- dit wordt gebruikt bij de klasse patrouilleschip.h en slagschip.h
+
+13
+member initialization in constructors (the stuff behind a colon)
+GEBRUIK:
+- wordt gebruikt in boot.h = constructor met ':'
+
+14
+at least 2 destructors
+GEBRUIK:
+- wordt gebruikt in boot.h
+
+15
+useful usage of "this" (if the code does not work without it)
+GEBRUIK:
+- wordt gebruikt in boot.cpp
+
+16
+useful member function
+GEBRUIK:
+- wordt gebruikt in boot.h en boot.cpp
+
+17
+default values in function definition
+- int sum(int x, int y, int z = 0, int w = 0)
+GEBRUIK: 
+- dit wordt gebruikt bij de klasse abstractBaseClass.cpp
+
+18
+useful member variabel
+GEBRUIK:
+- boot.h
+
+19
+useful getters and setters for member variables
+GEBRUIK:
+- boot.cpp
+
+20
+correct protections
+
+22
+no globals, but statics if needed
+GEBRUIKTE STATIC:
+- wordt gebruikt in speler.h (instances)
+
 23
+everything in one or more self-made namespace(s)
+- https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm
+GEBRUIK:
+- wordt overal gebruikt 
+
+24
+maintainability by clean uniform code style and good function naming and/or comments everywhere
+- goede naamgeving is beter als commentaar
+
+25
+separate header files
+
+26
+2 useful unsigned chars or other better usage of memory efficient type
+- een type card bestaat niet => unsigned char
+GEBRUIK:
+- tekenen van rand rond het veld in speelveld.cpp
+
+27
+using the best suited type on a lot of places (almost everywhere possible)
+
+31
 useful pointer declaration and usage
 GEBRUIK:
 - wordt gebruikt in main.cpp (r31, r35) 
 
-24
+34
 2 useful (modern) call-by-references
 - als argument ( &a , &b)
 GEBRUIK:
 - wordt gebruikt in main.cpp (r35, r42) 
 
-25
-clean main (i.e. nothing in the main that should be in a class)
+35
+useful string class usage
+- std string
+GEBRUIK:
+- dit wordt gebruikt voor naamspeler
 
-26
+43
 useful friend function or class
 - friend kunnen aan private delen van friend...
 GEBRUIK:
 - wordt gebruikt in speelveld.h
 
-27
-useful class (explain why)
+48
+correct and useful usage of command line parameters
 GEBRUIK:
-- wordt gebruikt in spel.h
+- wordt gebruikt in zeeslag.cpp
 
-28
-correct protections
-
-29
-no globals, but statics if needed
-GEBRUIKTE STATIC:
-- wordt gebruikt in speler.h (instances)
-
-30
-using the best suited type on a lot of places (almost everywhere possible)
-
-31
-maintainability by clean uniform code style and good function naming and/or comments everywhere
-- goede naamgeving is beter als commentaar
-
-32
-
-
-33
-
-
-34
-
-
-35
-
+52
+working build manual as readme on GitHub (project must be possible to build from scratch on a clean PC)
+GEBRUIK:
+- wordt gebruikt README.md
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-OPNIEUW BEKIJKEN:
 
+
+OPNIEUW BEKIJKEN:
+10
 useful proven (dynamic) polymorphism
 - https://www.geeksforgeeks.org/polymorphism-in-c/
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-NOG DOEN
+51
+one complete project that compiles and does not crash
 
+21
 no mistake in object-oriented programming
 
+30
 at least 4 useful bool
 - (hit/!, gezonken/!, help functie, ) (speelveld.h positie schip??? )
 
-useful Qt class
-- https://doc.qt.io/qt-5/classes.html
-- geluid bij win 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
-
-
-useful container class
-- std list
-
-useful operator overloading
-
-useful function overloading (non operator)
-
-useful function overriding (non virtual)
-
-useful template function or class
-
-useful non-type template arguments
-
-correct usage of inline function
-
-useful recursive function
-
-useful usage of nullptr
-
-useful usage of signals/slots
-
-useful usage of lambda function
-
-one complete project that compiles and does not crash
-
-useful usage of an external library (not Qt)
-- lib file
-
-a nice extra that you think that should deserve grading (stuff you put time in and is not rewarded by an item above)
-
+28
 at least 4 useful const references
 
+29
 correctly using const in almost all places (almost everywhere possible)
 
+
+32
 dynamic memory allocation (new)
 
+33
 dynamic memory removing (delete)
 
 
+36
+useful container class
+- std list
+
+37
+useful Qt class
+
+38
+useful operator overloading
+
+39
+useful function overloading (non operator)
+
+40
+useful function overriding (non virtual)
+
+41
+useful template function or class
+
+42
+useful non-type template arguments
 
 
+44
+correct usage of inline function
+
+45
+useful recursive function
+
+46
+useful usage of nullptr
+
+47
+useful usage of (modern) file-I/O
+- std stream
+
+
+49
+useful usage of signals/slots
+
+50
+useful usage of lambda function
+
+
+53
+test-driven development (= written test plan or unit tests)
+
+54
+solved on 8 bug tickets
+
+55
+reported 8 bug tickets on other projects
+
+56
+usage of a GUI
+
+57
+usage of OpenGL or other 3D engine
+
+58
+useful usage of an external library (not Qt)
+- lib file
+
+59
+project that works with hardware
+
+60
+a nice extra that you think that should deserve grading (stuff you put time in and is not rewarded by an item above)
 
 extra: 
 - een blad met uitleg over de functie, is handig als gij tijdens de 10min uitleg vraagt
 - 1-10 is basis!!!
 - waar niet useful staat moet ge gewoon aanmaken...
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-GAAT NOOIT GEBRUIKT WORDEN: 
-
-test-driven development (= written test plan or unit tests)
-
-usage of a GUI
-
-usage of OpenGL or other 3D engine
-
-project that works with hardware
-
-solved on 8 bug tickets
-
-reported 8 bug tickets on other projects
-
-useful usage of (modern) file-I/O
-- std stream
